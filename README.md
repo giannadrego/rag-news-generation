@@ -1,6 +1,6 @@
 ## RAG News Generation
 
-#### Author
+####Author
 Gianna Drego
 
 #### Project Description
@@ -33,19 +33,18 @@ Kafka topics:
 **Approach:**  
 To maximize both speed and accuracy, the pipeline is structured as four asynchronous, decoupled microservices communicating via Kafka topics. This design allows each stage—question seeding, fact retrieval, summarization, and article assembly—to run concurrently and independently, minimizing bottlenecks and improving throughput. For speed, data flows as soon as it is available without waiting for entire batches, leveraging Kafka's high-throughput message brokering. Batch processing is avoided in favor of streaming, reducing latency. Accuracy is prioritized by sourcing all facts directly from official Congress.gov endpoints and building contextually rich prompts for the local LLM (Ollama), which ensures concise, factual outputs. Failures or bottlenecks in one stage do not block the rest of the pipeline, further improving robustness and reliability.
 
-### Benchmark logs
+### Benchmark logs (7 minutes 23 seconds)
 #### controller.log(controller.log)
-2025-10-30 13:19:00,834 INFO Queued 70 question tasks
+2025-10-30 16:48:03,341 INFO Queued 70 question tasks
 #### (fetcher.log)
-2025-10-30 13:19:00,697 INFO Fetcher subscribed to tasks.questions
-2025-10-30 13:19:00,933 INFO Processing: HR.1 Question 1
+2025-10-30 16:48:03,421 INFO Fetcher subscribed to tasks.questions
+2025-10-30 16:48:42,872 INFO Processing: HR.1 Question 1
 #### (summarizer.log)
-2025-10-30 13:19:01,236 INFO Summarizer subscribed to facts.raw
-2025-10-30 13:19:03,355 INFO Summarizing: HR.1 Q1
+2025-10-30 16:48:03,953 INFO Summarizer subscribed to facts.raw
+2025-10-30 16:48:44,354 INFO Summarizing: HR.1 Q1
 #### (assembler.log)
-2025-10-30 13:26:33,357 INFO Collected Q6 for HR.1968: 6/7
-2025-10-30 13:26:34,934 INFO Collected Q7 for HR.1968: 7/7
-2025-10-30 13:26:34,936 INFO ✅ Wrote article for HR.1968 to /output/articles.json
+2025-10-30 16:55:26,235 INFO Collected Q7 for HR.1968: 7/7
+2025-10-30 16:55:26,236 INFO ✅ Wrote article for HR.1968 to /output/articles.json
 
 
 ### Setup and Run

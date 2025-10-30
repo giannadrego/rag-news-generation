@@ -24,16 +24,16 @@ QUESTIONS = {
 }
 
 BILLS = [
-  {"congress":118,"bill_type":"hr","number":1},
-  {"congress":118,"bill_type":"hr","number":5371},
-  {"congress":118,"bill_type":"hr","number":5401},
-  {"congress":118,"bill_type":"s","number":2296},
-  {"congress":118,"bill_type":"s","number":24},
-  {"congress":118,"bill_type":"s","number":2882},
-  {"congress":118,"bill_type":"s","number":499},
-  {"congress":118,"bill_type":"sres","number":412},
-  {"congress":118,"bill_type":"hres","number":353},
-  {"congress":118,"bill_type":"hr","number":1968},
+  {"congress":119,"bill_type":"hr","number":1},
+  {"congress":119,"bill_type":"hr","number":5371},
+  {"congress":119,"bill_type":"hr","number":5401},
+  {"congress":119,"bill_type":"s","number":2296},
+  {"congress":119,"bill_type":"s","number":24},
+  {"congress":119,"bill_type":"s","number":2882},
+  {"congress":119,"bill_type":"s","number":499},
+  {"congress":119,"bill_type":"sres","number":412},
+  {"congress":119,"bill_type":"hres","number":353},
+  {"congress":119,"bill_type":"hr","number":1968},
 ]
 
 def on_delivery(err, msg):

@@ -1,561 +1,561 @@
-2025-10-30 13:19:00,697 INFO Fetcher subscribed to tasks.questions
-2025-10-30 13:19:00,933 INFO Processing: HR.1 Question 1
-2025-10-30 13:19:00,933 INFO Building facts for question 1, bill 118/hr/1
-2025-10-30 13:19:01,867 INFO Built 4 facts, 1 links
-2025-10-30 13:19:02,074 INFO ✅ Produced: HR.1 Q1
-2025-10-30 13:19:02,074 INFO Question: What does this bill do? Where is it in the process?
-2025-10-30 13:19:02,074 INFO Facts: [{"text": "Bill Title: Lower Energy Costs Act", "link": ""}, {"text": "Summary: Lower Energy Costs Act This bill provides for the exploration, development, importation, and exportation of energy resources (e.g., oil, gas, and minerals). For example, it sets forth provisions to (1) expedite energy projects, (2) eliminate or reduce certain fees related to the development of federal energy resources, and (3) eliminate certain funds that provide incentives to decrease emissions of greenhouse gases. The bill expedites the development, importation, and exportation of energy resou", "link": ""}, {"text": "Current Status: The Clerk was authorized to correct section numbers, punctuation, and cross references, and to make other necessary technical and conforming corrections in the engrossment of H.R. 1. (Date: 2023-03-30)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/118th-congress/house-bill/1"}]
-2025-10-30 13:19:02,075 INFO Links: ["https://www.congress.gov/bill/118th-congress/house-bill/1"]
-2025-10-30 13:19:02,075 INFO Metadata: {"bill_title": "Lower Energy Costs Act", "bill_url": "https://www.congress.gov/bill/118th-congress/house-bill/1"}
-2025-10-30 13:19:02,075 INFO Processing: HR.1 Question 2
-2025-10-30 13:19:02,075 INFO Building facts for question 2, bill 118/hr/1
-2025-10-30 13:19:02,410 INFO Built 10 facts, 5 links
-2025-10-30 13:19:02,411 INFO ✅ Produced: HR.1 Q2
-2025-10-30 13:19:02,411 INFO Question: What committees is this bill in?
-2025-10-30 13:19:02,411 INFO Facts: [{"text": "Committee: Natural Resources Committee", "link": ""}, {"text": "View Natural Resources Committee committee page", "link": "https://www.congress.gov/committee/house-natural-resources-committee/hsii00"}, {"text": "Committee: Energy and Commerce Committee", "link": ""}, {"text": "View Energy and Commerce Committee committee page", "link": "https://www.congress.gov/committee/house-energy-and-commerce-committee/hsif00"}, {"text": "Committee: Transportation and Infrastructure Committee", "link": ""}, {"text": "View Transportation and Infrastructure Committee committee page", "link": "https://www.congress.gov/committee/house-transportation-and-infrastructure-committee/hspw00"}, {"text": "Committee: Budget Committee", "link": ""}, {"text": "View Budget Committee committee page", "link": "https://www.congress.gov/committee/house-budget-committee/hsbu00"}, {"text": "Committee: Agriculture Committee", "link": ""}, {"text": "View Agriculture Committee committee page", "link": "https://www.congress.gov/committee/house-agriculture-committee/hsag00"}]
-2025-10-30 13:19:02,412 INFO Links: ["https://www.congress.gov/committee/house-natural-resources-committee/hsii00", "https://www.congress.gov/committee/house-energy-and-commerce-committee/hsif00", "https://www.congress.gov/committee/house-transportation-and-infrastructure-committee/hspw00", "https://www.congress.gov/committee/house-budget-committee/hsbu00", "https://www.congress.gov/committee/house-agriculture-committee/hsag00"]
-2025-10-30 13:19:02,412 INFO Metadata: {"bill_committee_ids": ["HSII00", "HSIF00", "HSPW00", "HSBU00", "HSAG00"]}
-2025-10-30 13:19:02,412 INFO Processing: HR.1 Question 3
-2025-10-30 13:19:02,412 INFO Building facts for question 3, bill 118/hr/1
-2025-10-30 13:19:02,738 INFO Built 2 facts, 1 links
-2025-10-30 13:19:02,738 INFO ✅ Produced: HR.1 Q3
-2025-10-30 13:19:02,738 INFO Question: Who is the sponsor?
-2025-10-30 13:19:02,738 INFO Facts: [{"text": "Sponsor: Rep. Scalise, Steve [R-LA-1] (R-LA-1)", "link": ""}, {"text": "View sponsor profile: Rep. Scalise, Steve [R-LA-1]", "link": "https://www.congress.gov/member/rep-scalise-steve/S001176"}]
-2025-10-30 13:19:02,738 INFO Links: ["https://www.congress.gov/member/rep-scalise-steve/S001176"]
-2025-10-30 13:19:02,739 INFO Metadata: {"sponsor_bioguide_id": "S001176"}
-2025-10-30 13:19:02,739 INFO Processing: HR.1 Question 4
-2025-10-30 13:19:02,739 INFO Building facts for question 4, bill 118/hr/1
-2025-10-30 13:19:03,805 INFO Built 13 facts, 10 links
-2025-10-30 13:19:03,810 INFO ✅ Produced: HR.1 Q4
-2025-10-30 13:19:03,810 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
-2025-10-30 13:19:03,810 INFO Facts: [{"text": "Total cosponsors: 20", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Rep. McMorris Rodgers, Cathy [R-WA-5] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. McMorris Rodgers, Cathy [R-WA-5]", "link": "https://www.congress.gov/member/rep-mcmorris-rodgers-cathy/M001159"}, {"text": "- Rep. Westerman, Bruce [R-AR-4] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Westerman, Bruce [R-AR-4]", "link": "https://www.congress.gov/member/rep-westerman-bruce/W000821"}, {"text": "- Rep. Graves, Sam [R-MO-6] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Graves, Sam [R-MO-6]", "link": "https://www.congress.gov/member/rep-graves-sam/G000546"}, {"text": "- Rep. Stefanik, Elise M. [R-NY-21] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Stefanik, Elise M. [R-NY-21]", "link": "https://www.congress.gov/member/rep-stefanik-elise-m/S001196"}, {"text": "- Rep. Graves, Garret [R-LA-6] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Graves, Garret [R-LA-6]", "link": "https://www.congress.gov/member/rep-graves-garret/G000577"}, {"text": "Committees: Natural Resources Committee, Energy and Commerce Committee, Transportation and Infrastructure Committee, Budget Committee, Agriculture Committee", "link": ""}]
-2025-10-30 13:19:03,810 INFO Links: ["https://www.congress.gov/member/rep-mcmorris-rodgers-cathy/M001159", "https://www.congress.gov/member/rep-westerman-bruce/W000821", "https://www.congress.gov/member/rep-graves-sam/G000546", "https://www.congress.gov/member/rep-stefanik-elise-m/S001196", "https://www.congress.gov/member/rep-graves-garret/G000577", "https://www.congress.gov/committee/house-natural-resources-committee/hsii00", "https://www.congress.gov/committee/house-energy-and-commerce-committee/hsif00", "https://www.congress.gov/committee/house-transportation-and-infrastructure-committee/hspw00", "https://www.congress.gov/committee/house-budget-committee/hsbu00", "https://www.congress.gov/committee/house-agriculture-committee/hsag00"]
-2025-10-30 13:19:03,810 INFO Metadata: {"cosponsor_count": 20, "committee_codes": ["hsii00", "hsif00", "hspw00", "hsbu00", "hsag00"]}
-2025-10-30 13:19:03,810 INFO Processing: HR.1 Question 5
-2025-10-30 13:19:03,810 INFO Building facts for question 5, bill 118/hr/1
-2025-10-30 13:19:03,811 INFO Built 1 facts, 0 links
-2025-10-30 13:19:03,811 INFO ✅ Produced: HR.1 Q5
-2025-10-30 13:19:03,811 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
-2025-10-30 13:19:03,811 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
-2025-10-30 13:19:03,811 INFO Links: []
-2025-10-30 13:19:03,811 INFO Metadata: {}
-2025-10-30 13:19:03,811 INFO Processing: HR.1 Question 6
-2025-10-30 13:19:03,811 INFO Building facts for question 6, bill 118/hr/1
-2025-10-30 13:19:04,185 INFO Built 6 facts, 0 links
-2025-10-30 13:19:04,188 INFO ✅ Produced: HR.1 Q6
-2025-10-30 13:19:04,188 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
-2025-10-30 13:19:04,189 INFO Facts: [{"text": "Total amendments: 20", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}]
-2025-10-30 13:19:04,189 INFO Links: []
-2025-10-30 13:19:04,189 INFO Metadata: {"amendment_count": 20}
-2025-10-30 13:19:04,189 INFO Processing: HR.1 Question 7
-2025-10-30 13:19:04,189 INFO Building facts for question 7, bill 118/hr/1
-2025-10-30 13:19:04,542 INFO Built 4 facts, 0 links
-2025-10-30 13:19:04,543 INFO ✅ Produced: HR.1 Q7
-2025-10-30 13:19:04,543 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
-2025-10-30 13:19:04,543 INFO Facts: [{"text": "Found 7 vote-related actions", "link": ""}, {"text": "Vote: On passage Passed by the Yeas and Nays: 225 - 204 (Roll no. 182). (Date: 2023-03-30)", "link": ""}, {"text": "Vote: Passed/agreed to in House: On passage Passed by the Yeas and Nays: 225 - 204 (Roll no. 182). (Date: 2023-03-30)", "link": ""}, {"text": "Vote: On motion to recommit Failed by the Yeas and Nays: 207 - 222 (Roll no. 181). (Date: 2023-03-30)", "link": ""}]
-2025-10-30 13:19:04,543 INFO Links: []
-2025-10-30 13:19:04,543 INFO Metadata: {"vote_action_count": 7}
-2025-10-30 13:19:04,544 INFO Processing: HR.5371 Question 1
-2025-10-30 13:19:04,544 INFO Building facts for question 1, bill 118/hr/5371
-2025-10-30 13:19:05,278 INFO Built 3 facts, 1 links
-2025-10-30 13:19:05,279 INFO ✅ Produced: HR.5371 Q1
-2025-10-30 13:19:05,279 INFO Question: What does this bill do? Where is it in the process?
-2025-10-30 13:19:05,279 INFO Facts: [{"text": "Bill Title: Choices for Increased Mobility Act of 2023", "link": ""}, {"text": "Current Status: Referred to the Subcommittee on Health. (Date: 2024-12-17)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/118th-congress/house-bill/5371"}]
-2025-10-30 13:19:05,279 INFO Links: ["https://www.congress.gov/bill/118th-congress/house-bill/5371"]
-2025-10-30 13:19:05,279 INFO Metadata: {"bill_title": "Choices for Increased Mobility Act of 2023", "bill_url": "https://www.congress.gov/bill/118th-congress/house-bill/5371"}
-2025-10-30 13:19:05,279 INFO Processing: HR.5371 Question 2
-2025-10-30 13:19:05,280 INFO Building facts for question 2, bill 118/hr/5371
-2025-10-30 13:19:05,621 INFO Built 4 facts, 2 links
-2025-10-30 13:19:05,626 INFO ✅ Produced: HR.5371 Q2
-2025-10-30 13:19:05,626 INFO Question: What committees is this bill in?
-2025-10-30 13:19:05,628 INFO Facts: [{"text": "Committee: Ways and Means Committee", "link": ""}, {"text": "View Ways and Means Committee committee page", "link": "https://www.congress.gov/committee/house-ways-and-means-committee/hswm00"}, {"text": "Committee: Energy and Commerce Committee", "link": ""}, {"text": "View Energy and Commerce Committee committee page", "link": "https://www.congress.gov/committee/house-energy-and-commerce-committee/hsif00"}]
-2025-10-30 13:19:05,629 INFO Links: ["https://www.congress.gov/committee/house-ways-and-means-committee/hswm00", "https://www.congress.gov/committee/house-energy-and-commerce-committee/hsif00"]
-2025-10-30 13:19:05,633 INFO Metadata: {"bill_committee_ids": ["HSWM00", "HSIF00"]}
-2025-10-30 13:19:05,633 INFO Processing: HR.5371 Question 3
-2025-10-30 13:19:05,633 INFO Building facts for question 3, bill 118/hr/5371
-2025-10-30 13:19:06,013 INFO Built 2 facts, 1 links
-2025-10-30 13:19:06,014 INFO ✅ Produced: HR.5371 Q3
-2025-10-30 13:19:06,018 INFO Question: Who is the sponsor?
-2025-10-30 13:19:06,023 INFO Facts: [{"text": "Sponsor: Rep. Joyce, John [R-PA-13] (R-PA-13)", "link": ""}, {"text": "View sponsor profile: Rep. Joyce, John [R-PA-13]", "link": "https://www.congress.gov/member/rep-joyce-john/J000302"}]
-2025-10-30 13:19:06,024 INFO Links: ["https://www.congress.gov/member/rep-joyce-john/J000302"]
-2025-10-30 13:19:06,024 INFO Metadata: {"sponsor_bioguide_id": "J000302"}
-2025-10-30 13:19:06,027 INFO Processing: HR.5371 Question 4
-2025-10-30 13:19:06,029 INFO Building facts for question 4, bill 118/hr/5371
-2025-10-30 13:19:07,127 INFO Built 13 facts, 7 links
-2025-10-30 13:19:07,128 INFO ✅ Produced: HR.5371 Q4
-2025-10-30 13:19:07,128 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
-2025-10-30 13:19:07,128 INFO Facts: [{"text": "Total cosponsors: 13", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Rep. Steel, Michelle [R-CA-45] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Steel, Michelle [R-CA-45]", "link": "https://www.congress.gov/member/rep-steel-michelle/S001135"}, {"text": "- Rep. Thompson, Glenn [R-PA-15] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Thompson, Glenn [R-PA-15]", "link": "https://www.congress.gov/member/rep-thompson-glenn/T000467"}, {"text": "- Rep. Phillips, Dean [D-MN-3] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Phillips, Dean [D-MN-3]", "link": "https://www.congress.gov/member/rep-phillips-dean/P000616"}, {"text": "- Rep. Ross, Deborah K. [D-NC-2] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Ross, Deborah K. [D-NC-2]", "link": "https://www.congress.gov/member/rep-ross-deborah-k/R000305"}, {"text": "- Del. Norton, Eleanor Holmes [D-DC-At Large] (D)", "link": ""}, {"text": "View cosponsor profile: Del. Norton, Eleanor Holmes [D-DC-At Large]", "link": "https://www.congress.gov/member/del-norton-eleanor-holmes/N000147"}, {"text": "Committees: Ways and Means Committee, Energy and Commerce Committee", "link": ""}]
-2025-10-30 13:19:07,129 INFO Links: ["https://www.congress.gov/member/rep-steel-michelle/S001135", "https://www.congress.gov/member/rep-thompson-glenn/T000467", "https://www.congress.gov/member/rep-phillips-dean/P000616", "https://www.congress.gov/member/rep-ross-deborah-k/R000305", "https://www.congress.gov/member/del-norton-eleanor-holmes/N000147", "https://www.congress.gov/committee/house-ways-and-means-committee/hswm00", "https://www.congress.gov/committee/house-energy-and-commerce-committee/hsif00"]
-2025-10-30 13:19:07,129 INFO Metadata: {"cosponsor_count": 13, "committee_codes": ["hswm00", "hsif00"]}
-2025-10-30 13:19:07,129 INFO Processing: HR.5371 Question 5
-2025-10-30 13:19:07,130 INFO Building facts for question 5, bill 118/hr/5371
-2025-10-30 13:19:07,130 INFO Built 1 facts, 0 links
-2025-10-30 13:19:07,130 INFO ✅ Produced: HR.5371 Q5
-2025-10-30 13:19:07,130 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
-2025-10-30 13:19:07,130 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
-2025-10-30 13:19:07,130 INFO Links: []
-2025-10-30 13:19:07,130 INFO Metadata: {}
-2025-10-30 13:19:07,130 INFO Processing: HR.5371 Question 6
-2025-10-30 13:19:07,130 INFO Building facts for question 6, bill 118/hr/5371
-2025-10-30 13:19:07,473 INFO Built 1 facts, 0 links
-2025-10-30 13:19:07,474 INFO ✅ Produced: HR.5371 Q6
-2025-10-30 13:19:07,474 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
-2025-10-30 13:19:07,475 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
-2025-10-30 13:19:07,475 INFO Links: []
-2025-10-30 13:19:07,475 INFO Metadata: {"amendment_count": 0}
-2025-10-30 13:19:07,475 INFO Processing: HR.5371 Question 7
-2025-10-30 13:19:07,475 INFO Building facts for question 7, bill 118/hr/5371
-2025-10-30 13:19:07,830 INFO Built 3 facts, 0 links
-2025-10-30 13:19:07,831 INFO ✅ Produced: HR.5371 Q7
-2025-10-30 13:19:07,835 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
-2025-10-30 13:19:07,835 INFO Facts: [{"text": "Found 2 vote-related actions", "link": ""}, {"text": "Vote: Ordered to be Reported (Amended) by the Yeas and Nays: 41 - 0. (Date: 2023-12-06)", "link": ""}, {"text": "Vote: Forwarded by Subcommittee to Full Committee by Voice Vote. (Date: 2023-11-15)", "link": ""}]
-2025-10-30 13:19:07,835 INFO Links: []
-2025-10-30 13:19:07,835 INFO Metadata: {"vote_action_count": 2}
-2025-10-30 13:19:07,835 INFO Processing: HR.5401 Question 1
-2025-10-30 13:19:07,835 INFO Building facts for question 1, bill 118/hr/5401
-2025-10-30 13:19:08,531 INFO Built 4 facts, 1 links
-2025-10-30 13:19:08,533 INFO ✅ Produced: HR.5401 Q1
-2025-10-30 13:19:08,533 INFO Question: What does this bill do? Where is it in the process?
-2025-10-30 13:19:08,535 INFO Facts: [{"text": "Bill Title: 9/11 Memorial and Museum Act", "link": ""}, {"text": "Summary: 9/11 Memorial and Museum ActThis bill directs the Department of Homeland Security to award to the nonprofit organization that operates the National September 11 Memorial &amp; Museum in New York City&nbsp;a one-time grant to be used solely for the purposes of the operation, security, and maintenance of the memorial and museum.As a condition of receiving the grant, the organization mustprovide for free admission to all facilities and museums associated with the memorial and museum for active and ", "link": ""}, {"text": "Current Status: Received in the Senate. (Date: 2024-12-18)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/118th-congress/house-bill/5401"}]
-2025-10-30 13:19:08,535 INFO Links: ["https://www.congress.gov/bill/118th-congress/house-bill/5401"]
-2025-10-30 13:19:08,535 INFO Metadata: {"bill_title": "9/11 Memorial and Museum Act", "bill_url": "https://www.congress.gov/bill/118th-congress/house-bill/5401"}
-2025-10-30 13:19:08,536 INFO Processing: HR.5401 Question 2
-2025-10-30 13:19:08,536 INFO Building facts for question 2, bill 118/hr/5401
-2025-10-30 13:19:08,894 INFO Built 2 facts, 1 links
-2025-10-30 13:19:08,898 INFO ✅ Produced: HR.5401 Q2
-2025-10-30 13:19:08,898 INFO Question: What committees is this bill in?
-2025-10-30 13:19:08,903 INFO Facts: [{"text": "Committee: Natural Resources Committee", "link": ""}, {"text": "View Natural Resources Committee committee page", "link": "https://www.congress.gov/committee/house-natural-resources-committee/hsii00"}]
-2025-10-30 13:19:08,903 INFO Links: ["https://www.congress.gov/committee/house-natural-resources-committee/hsii00"]
-2025-10-30 13:19:08,904 INFO Metadata: {"bill_committee_ids": ["HSII00"]}
-2025-10-30 13:19:08,904 INFO Processing: HR.5401 Question 3
-2025-10-30 13:19:08,904 INFO Building facts for question 3, bill 118/hr/5401
-2025-10-30 13:19:09,252 INFO Built 2 facts, 1 links
-2025-10-30 13:19:09,255 INFO ✅ Produced: HR.5401 Q3
-2025-10-30 13:19:09,258 INFO Question: Who is the sponsor?
-2025-10-30 13:19:09,258 INFO Facts: [{"text": "Sponsor: Rep. D'Esposito, Anthony [R-NY-4] (R-NY-4)", "link": ""}, {"text": "View sponsor profile: Rep. D'Esposito, Anthony [R-NY-4]", "link": "https://www.congress.gov/member/rep-desposito-anthony/D000632"}]
-2025-10-30 13:19:09,259 INFO Links: ["https://www.congress.gov/member/rep-desposito-anthony/D000632"]
-2025-10-30 13:19:09,259 INFO Metadata: {"sponsor_bioguide_id": "D000632"}
-2025-10-30 13:19:09,259 INFO Processing: HR.5401 Question 4
-2025-10-30 13:19:09,259 INFO Building facts for question 4, bill 118/hr/5401
-2025-10-30 13:19:10,321 INFO Built 13 facts, 6 links
-2025-10-30 13:19:10,323 INFO ✅ Produced: HR.5401 Q4
-2025-10-30 13:19:10,323 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
-2025-10-30 13:19:10,323 INFO Facts: [{"text": "Total cosponsors: 20", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Rep. Carter, Troy [D-LA-2] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Carter, Troy [D-LA-2]", "link": "https://www.congress.gov/member/rep-carter-troy/C001125"}, {"text": "- Rep. Clarke, Yvette D. [D-NY-9] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Clarke, Yvette D. [D-NY-9]", "link": "https://www.congress.gov/member/rep-clarke-yvette-d/C001067"}, {"text": "- Rep. Crenshaw, Dan [R-TX-2] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Crenshaw, Dan [R-TX-2]", "link": "https://www.congress.gov/member/rep-crenshaw-dan/C001120"}, {"text": "- Rep. Fitzpatrick, Brian K. [R-PA-1] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Fitzpatrick, Brian K. [R-PA-1]", "link": "https://www.congress.gov/member/rep-fitzpatrick-brian-k/F000466"}, {"text": "- Rep. Garbarino, Andrew R. [R-NY-2] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Garbarino, Andrew R. [R-NY-2]", "link": "https://www.congress.gov/member/rep-garbarino-andrew-r/G000597"}, {"text": "Committees: Natural Resources Committee", "link": ""}]
-2025-10-30 13:19:10,324 INFO Links: ["https://www.congress.gov/member/rep-carter-troy/C001125", "https://www.congress.gov/member/rep-clarke-yvette-d/C001067", "https://www.congress.gov/member/rep-crenshaw-dan/C001120", "https://www.congress.gov/member/rep-fitzpatrick-brian-k/F000466", "https://www.congress.gov/member/rep-garbarino-andrew-r/G000597", "https://www.congress.gov/committee/house-natural-resources-committee/hsii00"]
-2025-10-30 13:19:10,324 INFO Metadata: {"cosponsor_count": 20, "committee_codes": ["hsii00"]}
-2025-10-30 13:19:10,324 INFO Processing: HR.5401 Question 5
-2025-10-30 13:19:10,324 INFO Building facts for question 5, bill 118/hr/5401
-2025-10-30 13:19:10,324 INFO Built 1 facts, 0 links
-2025-10-30 13:19:10,327 INFO ✅ Produced: HR.5401 Q5
-2025-10-30 13:19:10,327 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
-2025-10-30 13:19:10,327 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
-2025-10-30 13:19:10,327 INFO Links: []
-2025-10-30 13:19:10,327 INFO Metadata: {}
-2025-10-30 13:19:10,328 INFO Processing: HR.5401 Question 6
-2025-10-30 13:19:10,328 INFO Building facts for question 6, bill 118/hr/5401
-2025-10-30 13:19:10,680 INFO Built 1 facts, 0 links
-2025-10-30 13:19:10,681 INFO ✅ Produced: HR.5401 Q6
-2025-10-30 13:19:10,681 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
-2025-10-30 13:19:10,681 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
-2025-10-30 13:19:10,681 INFO Links: []
-2025-10-30 13:19:10,681 INFO Metadata: {"amendment_count": 0}
-2025-10-30 13:19:10,681 INFO Processing: HR.5401 Question 7
-2025-10-30 13:19:10,681 INFO Building facts for question 7, bill 118/hr/5401
-2025-10-30 13:19:11,045 INFO Built 3 facts, 0 links
-2025-10-30 13:19:11,058 INFO ✅ Produced: HR.5401 Q7
-2025-10-30 13:19:11,059 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
-2025-10-30 13:19:11,063 INFO Facts: [{"text": "Found 2 vote-related actions", "link": ""}, {"text": "Vote: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H7281) (Date: 2024-12-17)", "link": ""}, {"text": "Vote: Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H7281) (Date: 2024-12-17)", "link": ""}]
-2025-10-30 13:19:11,063 INFO Links: []
-2025-10-30 13:19:11,066 INFO Metadata: {"vote_action_count": 2}
-2025-10-30 13:19:11,074 INFO Processing: S.2296 Question 1
-2025-10-30 13:19:11,092 INFO Building facts for question 1, bill 118/s/2296
-2025-10-30 13:19:11,775 INFO Built 4 facts, 1 links
-2025-10-30 13:19:11,777 INFO ✅ Produced: S.2296 Q1
-2025-10-30 13:19:11,777 INFO Question: What does this bill do? Where is it in the process?
-2025-10-30 13:19:11,778 INFO Facts: [{"text": "Bill Title: Middle Class Borrower Protection Act of 2023", "link": ""}, {"text": "Summary: Middle Class Borrower Protection Act of 2023 This bill rolls back changes made by the Federal Housing Finance Agency (FHFA) to the fees charged by Fannie Mae and Freddie Mac for a conventional single-family mortgage (i.e., loan-level pricing adjustments) and restricts future fee adjustments. These changes, effective May 1, 2023, revised the fee charts that provide percentage adjustments based on a mortgagor's credit score and down payment. The bill reinstates the fee structure that was in place ", "link": ""}, {"text": "Current Status: Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (Date: 2023-07-13)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/118th-congress/senate-bill/2296"}]
-2025-10-30 13:19:11,778 INFO Links: ["https://www.congress.gov/bill/118th-congress/senate-bill/2296"]
-2025-10-30 13:19:11,778 INFO Metadata: {"bill_title": "Middle Class Borrower Protection Act of 2023", "bill_url": "https://www.congress.gov/bill/118th-congress/senate-bill/2296"}
-2025-10-30 13:19:11,778 INFO Processing: S.2296 Question 2
-2025-10-30 13:19:11,778 INFO Building facts for question 2, bill 118/s/2296
-2025-10-30 13:19:12,175 INFO Built 2 facts, 1 links
-2025-10-30 13:19:12,179 INFO ✅ Produced: S.2296 Q2
-2025-10-30 13:19:12,181 INFO Question: What committees is this bill in?
-2025-10-30 13:19:12,183 INFO Facts: [{"text": "Committee: Banking, Housing, and Urban Affairs Committee", "link": ""}, {"text": "View Banking, Housing, and Urban Affairs Committee committee page", "link": "https://www.congress.gov/committee/house-banking-housing-and-urban-affairs-committee/ssbk00"}]
-2025-10-30 13:19:12,183 INFO Links: ["https://www.congress.gov/committee/house-banking-housing-and-urban-affairs-committee/ssbk00"]
-2025-10-30 13:19:12,183 INFO Metadata: {"bill_committee_ids": ["SSBK00"]}
-2025-10-30 13:19:12,183 INFO Processing: S.2296 Question 3
-2025-10-30 13:19:12,183 INFO Building facts for question 3, bill 118/s/2296
-2025-10-30 13:19:12,545 INFO Built 2 facts, 1 links
-2025-10-30 13:19:12,546 INFO ✅ Produced: S.2296 Q3
-2025-10-30 13:19:12,547 INFO Question: Who is the sponsor?
-2025-10-30 13:19:12,552 INFO Facts: [{"text": "Sponsor: Sen. Braun, Mike [R-IN] (R-IN)", "link": ""}, {"text": "View sponsor profile: Sen. Braun, Mike [R-IN]", "link": "https://www.congress.gov/member/sen-braun-mike/B001310"}]
-2025-10-30 13:19:12,552 INFO Links: ["https://www.congress.gov/member/sen-braun-mike/B001310"]
-2025-10-30 13:19:12,552 INFO Metadata: {"sponsor_bioguide_id": "B001310"}
-2025-10-30 13:19:12,552 INFO Processing: S.2296 Question 4
-2025-10-30 13:19:12,552 INFO Building facts for question 4, bill 118/s/2296
-2025-10-30 13:19:13,617 INFO Built 13 facts, 6 links
-2025-10-30 13:19:13,620 INFO ✅ Produced: S.2296 Q4
-2025-10-30 13:19:13,620 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
-2025-10-30 13:19:13,623 INFO Facts: [{"text": "Total cosponsors: 15", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Sen. Marshall, Roger [R-KS] (R)", "link": ""}, {"text": "View cosponsor profile: Sen. Marshall, Roger [R-KS]", "link": "https://www.congress.gov/member/sen-marshall-roger/M001198"}, {"text": "- Sen. Tillis, Thomas [R-NC] (R)", "link": ""}, {"text": "View cosponsor profile: Sen. Tillis, Thomas [R-NC]", "link": "https://www.congress.gov/member/sen-tillis-thomas/T000476"}, {"text": "- Sen. Hyde-Smith, Cindy [R-MS] (R)", "link": ""}, {"text": "View cosponsor profile: Sen. Hyde-Smith, Cindy [R-MS]", "link": "https://www.congress.gov/member/sen-hyde-smith-cindy/H001079"}, {"text": "- Sen. Moran, Jerry [R-KS] (R)", "link": ""}, {"text": "View cosponsor profile: Sen. Moran, Jerry [R-KS]", "link": "https://www.congress.gov/member/sen-moran-jerry/M000934"}, {"text": "- Sen. Cotton, Tom [R-AR] (R)", "link": ""}, {"text": "View cosponsor profile: Sen. Cotton, Tom [R-AR]", "link": "https://www.congress.gov/member/sen-cotton-tom/C001095"}, {"text": "Committees: Banking, Housing, and Urban Affairs Committee", "link": ""}]
-2025-10-30 13:19:13,625 INFO Links: ["https://www.congress.gov/member/sen-marshall-roger/M001198", "https://www.congress.gov/member/sen-tillis-thomas/T000476", "https://www.congress.gov/member/sen-hyde-smith-cindy/H001079", "https://www.congress.gov/member/sen-moran-jerry/M000934", "https://www.congress.gov/member/sen-cotton-tom/C001095", "https://www.congress.gov/committee/house-banking-housing-and-urban-affairs-committee/ssbk00"]
-2025-10-30 13:19:13,626 INFO Metadata: {"cosponsor_count": 15, "committee_codes": ["ssbk00"]}
-2025-10-30 13:19:13,628 INFO Processing: S.2296 Question 5
-2025-10-30 13:19:13,628 INFO Building facts for question 5, bill 118/s/2296
-2025-10-30 13:19:13,630 INFO Built 1 facts, 0 links
-2025-10-30 13:19:13,632 INFO ✅ Produced: S.2296 Q5
-2025-10-30 13:19:13,632 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
-2025-10-30 13:19:13,633 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
-2025-10-30 13:19:13,633 INFO Links: []
-2025-10-30 13:19:13,633 INFO Metadata: {}
-2025-10-30 13:19:13,633 INFO Processing: S.2296 Question 6
-2025-10-30 13:19:13,635 INFO Building facts for question 6, bill 118/s/2296
-2025-10-30 13:19:13,984 INFO Built 1 facts, 0 links
-2025-10-30 13:19:13,985 INFO ✅ Produced: S.2296 Q6
-2025-10-30 13:19:13,985 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
-2025-10-30 13:19:13,985 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
-2025-10-30 13:19:13,985 INFO Links: []
-2025-10-30 13:19:13,985 INFO Metadata: {"amendment_count": 0}
-2025-10-30 13:19:13,985 INFO Processing: S.2296 Question 7
-2025-10-30 13:19:13,985 INFO Building facts for question 7, bill 118/s/2296
-2025-10-30 13:19:14,344 INFO Built 1 facts, 0 links
-2025-10-30 13:19:14,357 INFO ✅ Produced: S.2296 Q7
-2025-10-30 13:19:14,357 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
-2025-10-30 13:19:14,357 INFO Facts: [{"text": "No vote data found in actions", "link": ""}]
-2025-10-30 13:19:14,357 INFO Links: []
-2025-10-30 13:19:14,357 INFO Metadata: {"vote_action_count": 0}
-2025-10-30 13:19:14,357 INFO Processing: S.24 Question 1
-2025-10-30 13:19:14,357 INFO Building facts for question 1, bill 118/s/24
-2025-10-30 13:19:15,059 INFO Built 4 facts, 1 links
-2025-10-30 13:19:15,061 INFO ✅ Produced: S.24 Q1
-2025-10-30 13:19:15,061 INFO Question: What does this bill do? Where is it in the process?
-2025-10-30 13:19:15,062 INFO Facts: [{"text": "Bill Title: Fighting Homelessness Through Services and Housing Act", "link": ""}, {"text": "Summary: Fighting Homelessness Through Services and Housing Act This bill requires the Health Resources and Services Administration to award grants to local and tribal government&nbsp;entities for the planning and implementation of programs to address homelessness. The program includes five-year implementation grants to assist such entities in carrying out activities and paying capital building costs associated with the provision of housing and services to homeless individuals and families. Eligible enti", "link": ""}, {"text": "Current Status: Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (Sponsor introductory remarks on measure: CR S56-57) (Date: 2023-01-23)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/118th-congress/senate-bill/24"}]
-2025-10-30 13:19:15,062 INFO Links: ["https://www.congress.gov/bill/118th-congress/senate-bill/24"]
-2025-10-30 13:19:15,062 INFO Metadata: {"bill_title": "Fighting Homelessness Through Services and Housing Act", "bill_url": "https://www.congress.gov/bill/118th-congress/senate-bill/24"}
-2025-10-30 13:19:15,062 INFO Processing: S.24 Question 2
-2025-10-30 13:19:15,062 INFO Building facts for question 2, bill 118/s/24
-2025-10-30 13:19:15,425 INFO Built 2 facts, 1 links
-2025-10-30 13:19:15,426 INFO ✅ Produced: S.24 Q2
-2025-10-30 13:19:15,430 INFO Question: What committees is this bill in?
-2025-10-30 13:19:15,430 INFO Facts: [{"text": "Committee: Health, Education, Labor, and Pensions Committee", "link": ""}, {"text": "View Health, Education, Labor, and Pensions Committee committee page", "link": "https://www.congress.gov/committee/house-health-education-labor-and-pensions-committee/sshr00"}]
-2025-10-30 13:19:15,430 INFO Links: ["https://www.congress.gov/committee/house-health-education-labor-and-pensions-committee/sshr00"]
-2025-10-30 13:19:15,430 INFO Metadata: {"bill_committee_ids": ["SSHR00"]}
-2025-10-30 13:19:15,431 INFO Processing: S.24 Question 3
-2025-10-30 13:19:15,433 INFO Building facts for question 3, bill 118/s/24
-2025-10-30 13:19:15,780 INFO Built 2 facts, 1 links
-2025-10-30 13:19:15,781 INFO ✅ Produced: S.24 Q3
-2025-10-30 13:19:15,781 INFO Question: Who is the sponsor?
-2025-10-30 13:19:15,782 INFO Facts: [{"text": "Sponsor: Sen. Feinstein, Dianne [D-CA] (D-CA)", "link": ""}, {"text": "View sponsor profile: Sen. Feinstein, Dianne [D-CA]", "link": "https://www.congress.gov/member/sen-feinstein-dianne/F000062"}]
-2025-10-30 13:19:15,782 INFO Links: ["https://www.congress.gov/member/sen-feinstein-dianne/F000062"]
-2025-10-30 13:19:15,787 INFO Metadata: {"sponsor_bioguide_id": "F000062"}
-2025-10-30 13:19:15,787 INFO Processing: S.24 Question 4
-2025-10-30 13:19:15,787 INFO Building facts for question 4, bill 118/s/24
-2025-10-30 13:19:16,841 INFO Built 13 facts, 6 links
-2025-10-30 13:19:16,843 INFO ✅ Produced: S.24 Q4
-2025-10-30 13:19:16,843 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
-2025-10-30 13:19:16,843 INFO Facts: [{"text": "Total cosponsors: 5", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Sen. Padilla, Alex [D-CA] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Padilla, Alex [D-CA]", "link": "https://www.congress.gov/member/sen-padilla-alex/P000145"}, {"text": "- Sen. Klobuchar, Amy [D-MN] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Klobuchar, Amy [D-MN]", "link": "https://www.congress.gov/member/sen-klobuchar-amy/K000367"}, {"text": "- Sen. Shaheen, Jeanne [D-NH] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Shaheen, Jeanne [D-NH]", "link": "https://www.congress.gov/member/sen-shaheen-jeanne/S001181"}, {"text": "- Sen. Blumenthal, Richard [D-CT] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Blumenthal, Richard [D-CT]", "link": "https://www.congress.gov/member/sen-blumenthal-richard/B001277"}, {"text": "- Sen. Butler, Laphonza R. [D-CA] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Butler, Laphonza R. [D-CA]", "link": "https://www.congress.gov/member/sen-butler-laphonza-r/B001320"}, {"text": "Committees: Health, Education, Labor, and Pensions Committee", "link": ""}]
-2025-10-30 13:19:16,843 INFO Links: ["https://www.congress.gov/member/sen-padilla-alex/P000145", "https://www.congress.gov/member/sen-klobuchar-amy/K000367", "https://www.congress.gov/member/sen-shaheen-jeanne/S001181", "https://www.congress.gov/member/sen-blumenthal-richard/B001277", "https://www.congress.gov/member/sen-butler-laphonza-r/B001320", "https://www.congress.gov/committee/house-health-education-labor-and-pensions-committee/sshr00"]
-2025-10-30 13:19:16,843 INFO Metadata: {"cosponsor_count": 5, "committee_codes": ["sshr00"]}
-2025-10-30 13:19:16,843 INFO Processing: S.24 Question 5
-2025-10-30 13:19:16,844 INFO Building facts for question 5, bill 118/s/24
-2025-10-30 13:19:16,844 INFO Built 1 facts, 0 links
-2025-10-30 13:19:16,844 INFO ✅ Produced: S.24 Q5
-2025-10-30 13:19:16,844 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
-2025-10-30 13:19:16,850 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
-2025-10-30 13:19:16,850 INFO Links: []
-2025-10-30 13:19:16,851 INFO Metadata: {}
-2025-10-30 13:19:16,851 INFO Processing: S.24 Question 6
-2025-10-30 13:19:16,851 INFO Building facts for question 6, bill 118/s/24
-2025-10-30 13:19:17,210 INFO Built 1 facts, 0 links
-2025-10-30 13:19:17,211 INFO ✅ Produced: S.24 Q6
-2025-10-30 13:19:17,211 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
-2025-10-30 13:19:17,211 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
-2025-10-30 13:19:17,215 INFO Links: []
-2025-10-30 13:19:17,215 INFO Metadata: {"amendment_count": 0}
-2025-10-30 13:19:17,215 INFO Processing: S.24 Question 7
-2025-10-30 13:19:17,215 INFO Building facts for question 7, bill 118/s/24
-2025-10-30 13:19:17,566 INFO Built 1 facts, 0 links
-2025-10-30 13:19:17,569 INFO ✅ Produced: S.24 Q7
-2025-10-30 13:19:17,574 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
-2025-10-30 13:19:17,575 INFO Facts: [{"text": "No vote data found in actions", "link": ""}]
-2025-10-30 13:19:17,575 INFO Links: []
-2025-10-30 13:19:17,575 INFO Metadata: {"vote_action_count": 0}
-2025-10-30 13:19:17,575 INFO Processing: S.2882 Question 1
-2025-10-30 13:19:17,576 INFO Building facts for question 1, bill 118/s/2882
-2025-10-30 13:19:18,333 INFO Built 4 facts, 1 links
-2025-10-30 13:19:18,343 INFO ✅ Produced: S.2882 Q1
-2025-10-30 13:19:18,343 INFO Question: What does this bill do? Where is it in the process?
-2025-10-30 13:19:18,344 INFO Facts: [{"text": "Bill Title: Stop EV Freeloading Act", "link": ""}, {"text": "Summary: Stop EV Freeloading ActThis bill imposes a new excise tax in the amount of $1,000 on the sale of an electric vehicle and a new excise tax in the amount of $550 on the sale of a battery module weighing over 1,000 pounds for use in an electric vehicle. The bill also requires the Department of the Treasury to transfer amounts collected from the new excise taxes to the Highway Trust Fund.The bill defines electric vehicle as a light-duty vehicle (a motor vehicle weighing less than 8,500 pounds that i", "link": ""}, {"text": "Current Status: Read twice and referred to the Committee on Finance. (Date: 2023-09-21)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/118th-congress/senate-bill/2882"}]
-2025-10-30 13:19:18,347 INFO Links: ["https://www.congress.gov/bill/118th-congress/senate-bill/2882"]
-2025-10-30 13:19:18,347 INFO Metadata: {"bill_title": "Stop EV Freeloading Act", "bill_url": "https://www.congress.gov/bill/118th-congress/senate-bill/2882"}
-2025-10-30 13:19:18,347 INFO Processing: S.2882 Question 2
-2025-10-30 13:19:18,348 INFO Building facts for question 2, bill 118/s/2882
-2025-10-30 13:19:18,684 INFO Built 2 facts, 1 links
-2025-10-30 13:19:18,685 INFO ✅ Produced: S.2882 Q2
-2025-10-30 13:19:18,685 INFO Question: What committees is this bill in?
-2025-10-30 13:19:18,685 INFO Facts: [{"text": "Committee: Finance Committee", "link": ""}, {"text": "View Finance Committee committee page", "link": "https://www.congress.gov/committee/house-finance-committee/ssfi00"}]
-2025-10-30 13:19:18,685 INFO Links: ["https://www.congress.gov/committee/house-finance-committee/ssfi00"]
-2025-10-30 13:19:18,686 INFO Metadata: {"bill_committee_ids": ["SSFI00"]}
-2025-10-30 13:19:18,686 INFO Processing: S.2882 Question 3
-2025-10-30 13:19:18,686 INFO Building facts for question 3, bill 118/s/2882
-2025-10-30 13:19:19,040 INFO Built 2 facts, 1 links
-2025-10-30 13:19:19,041 INFO ✅ Produced: S.2882 Q3
-2025-10-30 13:19:19,041 INFO Question: Who is the sponsor?
-2025-10-30 13:19:19,043 INFO Facts: [{"text": "Sponsor: Sen. Fischer, Deb [R-NE] (R-NE)", "link": ""}, {"text": "View sponsor profile: Sen. Fischer, Deb [R-NE]", "link": "https://www.congress.gov/member/sen-fischer-deb/F000463"}]
-2025-10-30 13:19:19,043 INFO Links: ["https://www.congress.gov/member/sen-fischer-deb/F000463"]
-2025-10-30 13:19:19,049 INFO Metadata: {"sponsor_bioguide_id": "F000463"}
-2025-10-30 13:19:19,049 INFO Processing: S.2882 Question 4
-2025-10-30 13:19:19,049 INFO Building facts for question 4, bill 118/s/2882
-2025-10-30 13:19:20,117 INFO Built 9 facts, 4 links
-2025-10-30 13:19:20,118 INFO ✅ Produced: S.2882 Q4
-2025-10-30 13:19:20,118 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
-2025-10-30 13:19:20,118 INFO Facts: [{"text": "Total cosponsors: 3", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Sen. Ricketts, Pete [R-NE] (R)", "link": ""}, {"text": "View cosponsor profile: Sen. Ricketts, Pete [R-NE]", "link": "https://www.congress.gov/member/sen-ricketts-pete/R000618"}, {"text": "- Sen. Cornyn, John [R-TX] (R)", "link": ""}, {"text": "View cosponsor profile: Sen. Cornyn, John [R-TX]", "link": "https://www.congress.gov/member/sen-cornyn-john/C001056"}, {"text": "- Sen. Lummis, Cynthia M. [R-WY] (R)", "link": ""}, {"text": "View cosponsor profile: Sen. Lummis, Cynthia M. [R-WY]", "link": "https://www.congress.gov/member/sen-lummis-cynthia-m/L000571"}, {"text": "Committees: Finance Committee", "link": ""}]
-2025-10-30 13:19:20,118 INFO Links: ["https://www.congress.gov/member/sen-ricketts-pete/R000618", "https://www.congress.gov/member/sen-cornyn-john/C001056", "https://www.congress.gov/member/sen-lummis-cynthia-m/L000571", "https://www.congress.gov/committee/house-finance-committee/ssfi00"]
-2025-10-30 13:19:20,118 INFO Metadata: {"cosponsor_count": 3, "committee_codes": ["ssfi00"]}
-2025-10-30 13:19:20,118 INFO Processing: S.2882 Question 5
-2025-10-30 13:19:20,118 INFO Building facts for question 5, bill 118/s/2882
-2025-10-30 13:19:20,119 INFO Built 1 facts, 0 links
-2025-10-30 13:19:20,119 INFO ✅ Produced: S.2882 Q5
-2025-10-30 13:19:20,119 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
-2025-10-30 13:19:20,119 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
-2025-10-30 13:19:20,119 INFO Links: []
-2025-10-30 13:19:20,119 INFO Metadata: {}
-2025-10-30 13:19:20,119 INFO Processing: S.2882 Question 6
-2025-10-30 13:19:20,119 INFO Building facts for question 6, bill 118/s/2882
-2025-10-30 13:19:20,451 INFO Built 1 facts, 0 links
-2025-10-30 13:19:20,452 INFO ✅ Produced: S.2882 Q6
-2025-10-30 13:19:20,452 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
-2025-10-30 13:19:20,452 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
-2025-10-30 13:19:20,452 INFO Links: []
-2025-10-30 13:19:20,452 INFO Metadata: {"amendment_count": 0}
-2025-10-30 13:19:20,453 INFO Processing: S.2882 Question 7
-2025-10-30 13:19:20,453 INFO Building facts for question 7, bill 118/s/2882
-2025-10-30 13:19:20,817 INFO Built 1 facts, 0 links
-2025-10-30 13:19:20,818 INFO ✅ Produced: S.2882 Q7
-2025-10-30 13:19:20,818 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
-2025-10-30 13:19:20,818 INFO Facts: [{"text": "No vote data found in actions", "link": ""}]
-2025-10-30 13:19:20,818 INFO Links: []
-2025-10-30 13:19:20,819 INFO Metadata: {"vote_action_count": 0}
-2025-10-30 13:19:20,819 INFO Processing: S.499 Question 1
-2025-10-30 13:19:20,819 INFO Building facts for question 1, bill 118/s/499
-2025-10-30 13:19:21,504 INFO Built 4 facts, 1 links
-2025-10-30 13:19:21,505 INFO ✅ Produced: S.499 Q1
-2025-10-30 13:19:21,505 INFO Question: What does this bill do? Where is it in the process?
-2025-10-30 13:19:21,505 INFO Facts: [{"text": "Bill Title: Debbie Smith Act of 2023", "link": ""}, {"text": "Summary: Debbie Smith Act of 2023 This bill reauthorizes through FY2029 the Debbie Smith DNA Backlog Grant Program. The program provides grants to state and local governments to improve and expand the collection and analysis of DNA evidence, including evidence in sexual assault kits.", "link": ""}, {"text": "Current Status: Held at the desk. (Date: 2023-11-06)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/118th-congress/senate-bill/499"}]
-2025-10-30 13:19:21,505 INFO Links: ["https://www.congress.gov/bill/118th-congress/senate-bill/499"]
-2025-10-30 13:19:21,506 INFO Metadata: {"bill_title": "Debbie Smith Act of 2023", "bill_url": "https://www.congress.gov/bill/118th-congress/senate-bill/499"}
-2025-10-30 13:19:21,506 INFO Processing: S.499 Question 2
-2025-10-30 13:19:21,506 INFO Building facts for question 2, bill 118/s/499
-2025-10-30 13:19:21,847 INFO Built 2 facts, 1 links
-2025-10-30 13:19:21,848 INFO ✅ Produced: S.499 Q2
-2025-10-30 13:19:21,848 INFO Question: What committees is this bill in?
-2025-10-30 13:19:21,848 INFO Facts: [{"text": "Committee: Judiciary Committee", "link": ""}, {"text": "View Judiciary Committee committee page", "link": "https://www.congress.gov/committee/house-judiciary-committee/ssju00"}]
-2025-10-30 13:19:21,848 INFO Links: ["https://www.congress.gov/committee/house-judiciary-committee/ssju00"]
-2025-10-30 13:19:21,848 INFO Metadata: {"bill_committee_ids": ["SSJU00"]}
-2025-10-30 13:19:21,848 INFO Processing: S.499 Question 3
-2025-10-30 13:19:21,848 INFO Building facts for question 3, bill 118/s/499
-2025-10-30 13:19:22,233 INFO Built 2 facts, 1 links
-2025-10-30 13:19:22,233 INFO ✅ Produced: S.499 Q3
-2025-10-30 13:19:22,233 INFO Question: Who is the sponsor?
-2025-10-30 13:19:22,233 INFO Facts: [{"text": "Sponsor: Sen. Cornyn, John [R-TX] (R-TX)", "link": ""}, {"text": "View sponsor profile: Sen. Cornyn, John [R-TX]", "link": "https://www.congress.gov/member/sen-cornyn-john/C001056"}]
-2025-10-30 13:19:22,233 INFO Links: ["https://www.congress.gov/member/sen-cornyn-john/C001056"]
-2025-10-30 13:19:22,234 INFO Metadata: {"sponsor_bioguide_id": "C001056"}
-2025-10-30 13:19:22,234 INFO Processing: S.499 Question 4
-2025-10-30 13:19:22,234 INFO Building facts for question 4, bill 118/s/499
-2025-10-30 13:19:23,291 INFO Built 13 facts, 6 links
-2025-10-30 13:19:23,292 INFO ✅ Produced: S.499 Q4
-2025-10-30 13:19:23,292 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
-2025-10-30 13:19:23,292 INFO Facts: [{"text": "Total cosponsors: 16", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Sen. Feinstein, Dianne [D-CA] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Feinstein, Dianne [D-CA]", "link": "https://www.congress.gov/member/sen-feinstein-dianne/F000062"}, {"text": "- Sen. Graham, Lindsey [R-SC] (R)", "link": ""}, {"text": "View cosponsor profile: Sen. Graham, Lindsey [R-SC]", "link": "https://www.congress.gov/member/sen-graham-lindsey/G000359"}, {"text": "- Sen. Klobuchar, Amy [D-MN] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Klobuchar, Amy [D-MN]", "link": "https://www.congress.gov/member/sen-klobuchar-amy/K000367"}, {"text": "- Sen. Crapo, Mike [R-ID] (R)", "link": ""}, {"text": "View cosponsor profile: Sen. Crapo, Mike [R-ID]", "link": "https://www.congress.gov/member/sen-crapo-mike/C000880"}, {"text": "- Sen. Durbin, Richard J. [D-IL] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Durbin, Richard J. [D-IL]", "link": "https://www.congress.gov/member/sen-durbin-richard-j/D000563"}, {"text": "Committees: Judiciary Committee", "link": ""}]
-2025-10-30 13:19:23,292 INFO Links: ["https://www.congress.gov/member/sen-feinstein-dianne/F000062", "https://www.congress.gov/member/sen-graham-lindsey/G000359", "https://www.congress.gov/member/sen-klobuchar-amy/K000367", "https://www.congress.gov/member/sen-crapo-mike/C000880", "https://www.congress.gov/member/sen-durbin-richard-j/D000563", "https://www.congress.gov/committee/house-judiciary-committee/ssju00"]
-2025-10-30 13:19:23,293 INFO Metadata: {"cosponsor_count": 16, "committee_codes": ["ssju00"]}
-2025-10-30 13:19:23,293 INFO Processing: S.499 Question 5
-2025-10-30 13:19:23,293 INFO Building facts for question 5, bill 118/s/499
-2025-10-30 13:19:23,293 INFO Built 1 facts, 0 links
-2025-10-30 13:19:23,293 INFO ✅ Produced: S.499 Q5
-2025-10-30 13:19:23,293 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
-2025-10-30 13:19:23,293 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
-2025-10-30 13:19:23,293 INFO Links: []
-2025-10-30 13:19:23,293 INFO Metadata: {}
-2025-10-30 13:19:23,293 INFO Processing: S.499 Question 6
-2025-10-30 13:19:23,294 INFO Building facts for question 6, bill 118/s/499
-2025-10-30 13:19:23,641 INFO Built 2 facts, 0 links
-2025-10-30 13:19:23,644 INFO ✅ Produced: S.499 Q6
-2025-10-30 13:19:23,645 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
-2025-10-30 13:19:23,645 INFO Facts: [{"text": "Total amendments: 1", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}]
-2025-10-30 13:19:23,645 INFO Links: []
-2025-10-30 13:19:23,645 INFO Metadata: {"amendment_count": 1}
-2025-10-30 13:19:23,645 INFO Processing: S.499 Question 7
-2025-10-30 13:19:23,645 INFO Building facts for question 7, bill 118/s/499
-2025-10-30 13:19:23,982 INFO Built 3 facts, 0 links
-2025-10-30 13:19:23,987 INFO ✅ Produced: S.499 Q7
-2025-10-30 13:19:23,987 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
-2025-10-30 13:19:23,988 INFO Facts: [{"text": "Found 2 vote-related actions", "link": ""}, {"text": "Vote: Passed Senate with an amendment by Voice Vote. (Date: 2023-11-02)", "link": ""}, {"text": "Vote: Passed/agreed to in Senate: Passed Senate with an amendment by Voice Vote. (Date: 2023-11-02)", "link": ""}]
-2025-10-30 13:19:23,988 INFO Links: []
-2025-10-30 13:19:23,988 INFO Metadata: {"vote_action_count": 2}
-2025-10-30 13:19:23,988 INFO Processing: SRES.412 Question 1
-2025-10-30 13:19:23,988 INFO Building facts for question 1, bill 118/sres/412
-2025-10-30 13:19:24,692 INFO Built 4 facts, 1 links
-2025-10-30 13:19:24,696 INFO ✅ Produced: SRES.412 Q1
-2025-10-30 13:19:24,697 INFO Question: What does this bill do? Where is it in the process?
-2025-10-30 13:19:24,697 INFO Facts: [{"text": "Bill Title: A resolution supporting the nearly 150,000 United Auto Workers currently negotiating collective bargaining agreements with the \"Big Three\" automakers.", "link": ""}, {"text": "Summary: This resolution expresses support for members of the United Auto Workers union in their negotiations with automakers General Motors, Stellantis, and Ford (known as the&nbsp;Big Three). The resolution supports workers' rights to organize and to collectively bargain. It also calls on the automakers to negotiate in good faith and offer their workers a fair contract.", "link": ""}, {"text": "Current Status: Referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S5090) (Date: 2023-10-18)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/118th-congress/senate-resolution/412"}]
-2025-10-30 13:19:24,698 INFO Links: ["https://www.congress.gov/bill/118th-congress/senate-resolution/412"]
-2025-10-30 13:19:24,698 INFO Metadata: {"bill_title": "A resolution supporting the nearly 150,000 United Auto Workers currently negotiating collective bargaining agreements with the \"Big Three\" automakers.", "bill_url": "https://www.congress.gov/bill/118th-congress/senate-resolution/412"}
-2025-10-30 13:19:24,698 INFO Processing: SRES.412 Question 2
-2025-10-30 13:19:24,698 INFO Building facts for question 2, bill 118/sres/412
-2025-10-30 13:19:25,056 INFO Built 2 facts, 1 links
-2025-10-30 13:19:25,057 INFO ✅ Produced: SRES.412 Q2
-2025-10-30 13:19:25,057 INFO Question: What committees is this bill in?
-2025-10-30 13:19:25,058 INFO Facts: [{"text": "Committee: Health, Education, Labor, and Pensions Committee", "link": ""}, {"text": "View Health, Education, Labor, and Pensions Committee committee page", "link": "https://www.congress.gov/committee/house-health-education-labor-and-pensions-committee/sshr00"}]
-2025-10-30 13:19:25,058 INFO Links: ["https://www.congress.gov/committee/house-health-education-labor-and-pensions-committee/sshr00"]
-2025-10-30 13:19:25,058 INFO Metadata: {"bill_committee_ids": ["SSHR00"]}
-2025-10-30 13:19:25,058 INFO Processing: SRES.412 Question 3
-2025-10-30 13:19:25,058 INFO Building facts for question 3, bill 118/sres/412
-2025-10-30 13:19:25,422 INFO Built 2 facts, 1 links
-2025-10-30 13:19:25,423 INFO ✅ Produced: SRES.412 Q3
-2025-10-30 13:19:25,423 INFO Question: Who is the sponsor?
-2025-10-30 13:19:25,423 INFO Facts: [{"text": "Sponsor: Sen. Sanders, Bernard [I-VT] (I-VT)", "link": ""}, {"text": "View sponsor profile: Sen. Sanders, Bernard [I-VT]", "link": "https://www.congress.gov/member/sen-sanders-bernard/S000033"}]
-2025-10-30 13:19:25,423 INFO Links: ["https://www.congress.gov/member/sen-sanders-bernard/S000033"]
-2025-10-30 13:19:25,423 INFO Metadata: {"sponsor_bioguide_id": "S000033"}
-2025-10-30 13:19:25,423 INFO Processing: SRES.412 Question 4
-2025-10-30 13:19:25,423 INFO Building facts for question 4, bill 118/sres/412
-2025-10-30 13:19:26,481 INFO Built 13 facts, 6 links
-2025-10-30 13:19:26,484 INFO ✅ Produced: SRES.412 Q4
-2025-10-30 13:19:26,489 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
-2025-10-30 13:19:26,489 INFO Facts: [{"text": "Total cosponsors: 20", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Sen. Brown, Sherrod [D-OH] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Brown, Sherrod [D-OH]", "link": "https://www.congress.gov/member/sen-brown-sherrod/B000944"}, {"text": "- Sen. Baldwin, Tammy [D-WI] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Baldwin, Tammy [D-WI]", "link": "https://www.congress.gov/member/sen-baldwin-tammy/B001230"}, {"text": "- Sen. Warren, Elizabeth [D-MA] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Warren, Elizabeth [D-MA]", "link": "https://www.congress.gov/member/sen-warren-elizabeth/W000817"}, {"text": "- Sen. Fetterman, John [D-PA] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Fetterman, John [D-PA]", "link": "https://www.congress.gov/member/sen-fetterman-john/F000479"}, {"text": "- Sen. Padilla, Alex [D-CA] (D)", "link": ""}, {"text": "View cosponsor profile: Sen. Padilla, Alex [D-CA]", "link": "https://www.congress.gov/member/sen-padilla-alex/P000145"}, {"text": "Committees: Health, Education, Labor, and Pensions Committee", "link": ""}]
-2025-10-30 13:19:26,489 INFO Links: ["https://www.congress.gov/member/sen-brown-sherrod/B000944", "https://www.congress.gov/member/sen-baldwin-tammy/B001230", "https://www.congress.gov/member/sen-warren-elizabeth/W000817", "https://www.congress.gov/member/sen-fetterman-john/F000479", "https://www.congress.gov/member/sen-padilla-alex/P000145", "https://www.congress.gov/committee/house-health-education-labor-and-pensions-committee/sshr00"]
-2025-10-30 13:19:26,489 INFO Metadata: {"cosponsor_count": 20, "committee_codes": ["sshr00"]}
-2025-10-30 13:19:26,489 INFO Processing: SRES.412 Question 5
-2025-10-30 13:19:26,489 INFO Building facts for question 5, bill 118/sres/412
-2025-10-30 13:19:26,492 INFO Built 1 facts, 0 links
-2025-10-30 13:19:26,492 INFO ✅ Produced: SRES.412 Q5
-2025-10-30 13:19:26,492 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
-2025-10-30 13:19:26,492 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
-2025-10-30 13:19:26,492 INFO Links: []
-2025-10-30 13:19:26,492 INFO Metadata: {}
-2025-10-30 13:19:26,492 INFO Processing: SRES.412 Question 6
-2025-10-30 13:19:26,493 INFO Building facts for question 6, bill 118/sres/412
-2025-10-30 13:19:26,844 INFO Built 1 facts, 0 links
-2025-10-30 13:19:26,851 INFO ✅ Produced: SRES.412 Q6
-2025-10-30 13:19:26,851 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
-2025-10-30 13:19:26,851 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
-2025-10-30 13:19:26,851 INFO Links: []
-2025-10-30 13:19:26,852 INFO Metadata: {"amendment_count": 0}
-2025-10-30 13:19:26,852 INFO Processing: SRES.412 Question 7
-2025-10-30 13:19:26,852 INFO Building facts for question 7, bill 118/sres/412
-2025-10-30 13:19:27,188 INFO Built 1 facts, 0 links
-2025-10-30 13:19:27,190 INFO ✅ Produced: SRES.412 Q7
-2025-10-30 13:19:27,190 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
-2025-10-30 13:19:27,190 INFO Facts: [{"text": "No vote data found in actions", "link": ""}]
-2025-10-30 13:19:27,190 INFO Links: []
-2025-10-30 13:19:27,191 INFO Metadata: {"vote_action_count": 0}
-2025-10-30 13:19:27,195 INFO Processing: HRES.353 Question 1
-2025-10-30 13:19:27,198 INFO Building facts for question 1, bill 118/hres/353
-2025-10-30 13:19:27,889 INFO Built 4 facts, 1 links
-2025-10-30 13:19:27,889 INFO ✅ Produced: HRES.353 Q1
-2025-10-30 13:19:27,889 INFO Question: What does this bill do? Where is it in the process?
-2025-10-30 13:19:27,889 INFO Facts: [{"text": "Bill Title: Expressing support for the designation of May 5, 2023, as the \"National Day of Awareness for Missing and Murdered Indigenous Women and Girls\".", "link": ""}, {"text": "Summary: This resolution expresses support for the designation of a National Day of Awareness for Missing and Murdered Indigenous Women and Girls.", "link": ""}, {"text": "Current Status: Referred to the Subcommittee on Indian and Insular Affairs. (Date: 2023-06-09)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/118th-congress/house-resolution/353"}]
-2025-10-30 13:19:27,889 INFO Links: ["https://www.congress.gov/bill/118th-congress/house-resolution/353"]
-2025-10-30 13:19:27,889 INFO Metadata: {"bill_title": "Expressing support for the designation of May 5, 2023, as the \"National Day of Awareness for Missing and Murdered Indigenous Women and Girls\".", "bill_url": "https://www.congress.gov/bill/118th-congress/house-resolution/353"}
-2025-10-30 13:19:27,890 INFO Processing: HRES.353 Question 2
-2025-10-30 13:19:27,890 INFO Building facts for question 2, bill 118/hres/353
-2025-10-30 13:19:28,236 INFO Built 4 facts, 2 links
-2025-10-30 13:19:28,237 INFO ✅ Produced: HRES.353 Q2
-2025-10-30 13:19:28,238 INFO Question: What committees is this bill in?
-2025-10-30 13:19:28,238 INFO Facts: [{"text": "Committee: Natural Resources Committee", "link": ""}, {"text": "View Natural Resources Committee committee page", "link": "https://www.congress.gov/committee/house-natural-resources-committee/hsii00"}, {"text": "Committee: Judiciary Committee", "link": ""}, {"text": "View Judiciary Committee committee page", "link": "https://www.congress.gov/committee/house-judiciary-committee/hsju00"}]
-2025-10-30 13:19:28,238 INFO Links: ["https://www.congress.gov/committee/house-natural-resources-committee/hsii00", "https://www.congress.gov/committee/house-judiciary-committee/hsju00"]
-2025-10-30 13:19:28,238 INFO Metadata: {"bill_committee_ids": ["HSII00", "HSJU00"]}
-2025-10-30 13:19:28,239 INFO Processing: HRES.353 Question 3
-2025-10-30 13:19:28,239 INFO Building facts for question 3, bill 118/hres/353
-2025-10-30 13:19:28,581 INFO Built 2 facts, 1 links
-2025-10-30 13:19:28,582 INFO ✅ Produced: HRES.353 Q3
-2025-10-30 13:19:28,582 INFO Question: Who is the sponsor?
-2025-10-30 13:19:28,582 INFO Facts: [{"text": "Sponsor: Rep. Newhouse, Dan [R-WA-4] (R-WA-4)", "link": ""}, {"text": "View sponsor profile: Rep. Newhouse, Dan [R-WA-4]", "link": "https://www.congress.gov/member/rep-newhouse-dan/N000189"}]
-2025-10-30 13:19:28,582 INFO Links: ["https://www.congress.gov/member/rep-newhouse-dan/N000189"]
-2025-10-30 13:19:28,582 INFO Metadata: {"sponsor_bioguide_id": "N000189"}
-2025-10-30 13:19:28,582 INFO Processing: HRES.353 Question 4
-2025-10-30 13:19:28,582 INFO Building facts for question 4, bill 118/hres/353
-2025-10-30 13:19:29,632 INFO Built 13 facts, 7 links
-2025-10-30 13:19:29,632 INFO ✅ Produced: HRES.353 Q4
-2025-10-30 13:19:29,633 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
-2025-10-30 13:19:29,633 INFO Facts: [{"text": "Total cosponsors: 20", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Rep. Moore, Gwen [D-WI-4] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Moore, Gwen [D-WI-4]", "link": "https://www.congress.gov/member/rep-moore-gwen/M001160"}, {"text": "- Rep. Matsui, Doris O. [D-CA-7] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Matsui, Doris O. [D-CA-7]", "link": "https://www.congress.gov/member/rep-matsui-doris-o/M001163"}, {"text": "- Rep. Porter, Katie [D-CA-47] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Porter, Katie [D-CA-47]", "link": "https://www.congress.gov/member/rep-porter-katie/P000618"}, {"text": "- Del. Norton, Eleanor Holmes [D-DC-At Large] (D)", "link": ""}, {"text": "View cosponsor profile: Del. Norton, Eleanor Holmes [D-DC-At Large]", "link": "https://www.congress.gov/member/del-norton-eleanor-holmes/N000147"}, {"text": "- Rep. McCollum, Betty [D-MN-4] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. McCollum, Betty [D-MN-4]", "link": "https://www.congress.gov/member/rep-mccollum-betty/M001143"}, {"text": "Committees: Natural Resources Committee, Judiciary Committee", "link": ""}]
-2025-10-30 13:19:29,633 INFO Links: ["https://www.congress.gov/member/rep-moore-gwen/M001160", "https://www.congress.gov/member/rep-matsui-doris-o/M001163", "https://www.congress.gov/member/rep-porter-katie/P000618", "https://www.congress.gov/member/del-norton-eleanor-holmes/N000147", "https://www.congress.gov/member/rep-mccollum-betty/M001143", "https://www.congress.gov/committee/house-natural-resources-committee/hsii00", "https://www.congress.gov/committee/house-judiciary-committee/hsju00"]
-2025-10-30 13:19:29,633 INFO Metadata: {"cosponsor_count": 20, "committee_codes": ["hsii00", "hsju00"]}
-2025-10-30 13:19:29,633 INFO Processing: HRES.353 Question 5
-2025-10-30 13:19:29,633 INFO Building facts for question 5, bill 118/hres/353
-2025-10-30 13:19:29,633 INFO Built 1 facts, 0 links
-2025-10-30 13:19:29,634 INFO ✅ Produced: HRES.353 Q5
-2025-10-30 13:19:29,634 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
-2025-10-30 13:19:29,636 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
-2025-10-30 13:19:29,638 INFO Links: []
-2025-10-30 13:19:29,640 INFO Metadata: {}
-2025-10-30 13:19:29,642 INFO Processing: HRES.353 Question 6
-2025-10-30 13:19:29,642 INFO Building facts for question 6, bill 118/hres/353
-2025-10-30 13:19:29,988 INFO Built 1 facts, 0 links
-2025-10-30 13:19:29,995 INFO ✅ Produced: HRES.353 Q6
-2025-10-30 13:19:29,997 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
-2025-10-30 13:19:29,997 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
-2025-10-30 13:19:29,997 INFO Links: []
-2025-10-30 13:19:29,997 INFO Metadata: {"amendment_count": 0}
-2025-10-30 13:19:29,997 INFO Processing: HRES.353 Question 7
-2025-10-30 13:19:29,997 INFO Building facts for question 7, bill 118/hres/353
-2025-10-30 13:19:30,350 INFO Built 1 facts, 0 links
-2025-10-30 13:19:30,350 INFO ✅ Produced: HRES.353 Q7
-2025-10-30 13:19:30,351 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
-2025-10-30 13:19:30,351 INFO Facts: [{"text": "No vote data found in actions", "link": ""}]
-2025-10-30 13:19:30,351 INFO Links: []
-2025-10-30 13:19:30,351 INFO Metadata: {"vote_action_count": 0}
-2025-10-30 13:19:30,351 INFO Processing: HR.1968 Question 1
-2025-10-30 13:19:30,351 INFO Building facts for question 1, bill 118/hr/1968
-2025-10-30 13:19:31,068 INFO Built 4 facts, 1 links
-2025-10-30 13:19:31,068 INFO ✅ Produced: HR.1968 Q1
-2025-10-30 13:19:31,068 INFO Question: What does this bill do? Where is it in the process?
-2025-10-30 13:19:31,069 INFO Facts: [{"text": "Bill Title: To provide for a limitation on availability of funds for Department of Health and Human Services, Centers for Disease Control and Prevention Injury Prevention and Control for fiscal year 2024.", "link": ""}, {"text": "Summary: This bill limits FY2024 funding for the Centers for Disease Control and Prevention for injury prevention and control.", "link": ""}, {"text": "Current Status: Referred to the Subcommittee on Health. (Date: 2023-04-07)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/118th-congress/house-bill/1968"}]
-2025-10-30 13:19:31,069 INFO Links: ["https://www.congress.gov/bill/118th-congress/house-bill/1968"]
-2025-10-30 13:19:31,069 INFO Metadata: {"bill_title": "To provide for a limitation on availability of funds for Department of Health and Human Services, Centers for Disease Control and Prevention Injury Prevention and Control for fiscal year 2024.", "bill_url": "https://www.congress.gov/bill/118th-congress/house-bill/1968"}
-2025-10-30 13:19:31,069 INFO Processing: HR.1968 Question 2
-2025-10-30 13:19:31,069 INFO Building facts for question 2, bill 118/hr/1968
-2025-10-30 13:19:31,410 INFO Built 2 facts, 1 links
-2025-10-30 13:19:31,412 INFO ✅ Produced: HR.1968 Q2
-2025-10-30 13:19:31,412 INFO Question: What committees is this bill in?
-2025-10-30 13:19:31,412 INFO Facts: [{"text": "Committee: Energy and Commerce Committee", "link": ""}, {"text": "View Energy and Commerce Committee committee page", "link": "https://www.congress.gov/committee/house-energy-and-commerce-committee/hsif00"}]
-2025-10-30 13:19:31,412 INFO Links: ["https://www.congress.gov/committee/house-energy-and-commerce-committee/hsif00"]
-2025-10-30 13:19:31,412 INFO Metadata: {"bill_committee_ids": ["HSIF00"]}
-2025-10-30 13:19:31,412 INFO Processing: HR.1968 Question 3
-2025-10-30 13:19:31,412 INFO Building facts for question 3, bill 118/hr/1968
-2025-10-30 13:19:31,762 INFO Built 2 facts, 1 links
-2025-10-30 13:19:31,763 INFO ✅ Produced: HR.1968 Q3
-2025-10-30 13:19:31,763 INFO Question: Who is the sponsor?
-2025-10-30 13:19:31,763 INFO Facts: [{"text": "Sponsor: Rep. Biggs, Andy [R-AZ-5] (R-AZ-5)", "link": ""}, {"text": "View sponsor profile: Rep. Biggs, Andy [R-AZ-5]", "link": "https://www.congress.gov/member/rep-biggs-andy/B001302"}]
-2025-10-30 13:19:31,765 INFO Links: ["https://www.congress.gov/member/rep-biggs-andy/B001302"]
-2025-10-30 13:19:31,769 INFO Metadata: {"sponsor_bioguide_id": "B001302"}
-2025-10-30 13:19:31,769 INFO Processing: HR.1968 Question 4
-2025-10-30 13:19:31,769 INFO Building facts for question 4, bill 118/hr/1968
-2025-10-30 13:19:32,815 INFO Built 13 facts, 6 links
-2025-10-30 13:19:32,816 INFO ✅ Produced: HR.1968 Q4
-2025-10-30 13:19:32,817 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
-2025-10-30 13:19:32,817 INFO Facts: [{"text": "Total cosponsors: 5", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Rep. Rosendale Sr., Matthew M. [R-MT-2] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Rosendale Sr., Matthew M. [R-MT-2]", "link": "https://www.congress.gov/member/rep-rosendale-sr-matthew-m/R000103"}, {"text": "- Rep. Gaetz, Matt [R-FL-1] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Gaetz, Matt [R-FL-1]", "link": "https://www.congress.gov/member/rep-gaetz-matt/G000578"}, {"text": "- Rep. Good, Bob [R-VA-5] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Good, Bob [R-VA-5]", "link": "https://www.congress.gov/member/rep-good-bob/G000595"}, {"text": "- Rep. Roy, Chip [R-TX-21] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Roy, Chip [R-TX-21]", "link": "https://www.congress.gov/member/rep-roy-chip/R000614"}, {"text": "- Rep. Crane, Elijah [R-AZ-2] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Crane, Elijah [R-AZ-2]", "link": "https://www.congress.gov/member/rep-crane-elijah/C001132"}, {"text": "Committees: Energy and Commerce Committee", "link": ""}]
-2025-10-30 13:19:32,817 INFO Links: ["https://www.congress.gov/member/rep-rosendale-sr-matthew-m/R000103", "https://www.congress.gov/member/rep-gaetz-matt/G000578", "https://www.congress.gov/member/rep-good-bob/G000595", "https://www.congress.gov/member/rep-roy-chip/R000614", "https://www.congress.gov/member/rep-crane-elijah/C001132", "https://www.congress.gov/committee/house-energy-and-commerce-committee/hsif00"]
-2025-10-30 13:19:32,817 INFO Metadata: {"cosponsor_count": 5, "committee_codes": ["hsif00"]}
-2025-10-30 13:19:32,817 INFO Processing: HR.1968 Question 5
-2025-10-30 13:19:32,817 INFO Building facts for question 5, bill 118/hr/1968
-2025-10-30 13:19:32,817 INFO Built 1 facts, 0 links
-2025-10-30 13:19:32,818 INFO ✅ Produced: HR.1968 Q5
-2025-10-30 13:19:32,818 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
-2025-10-30 13:19:32,818 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
-2025-10-30 13:19:32,818 INFO Links: []
-2025-10-30 13:19:32,818 INFO Metadata: {}
-2025-10-30 13:19:32,818 INFO Processing: HR.1968 Question 6
-2025-10-30 13:19:32,818 INFO Building facts for question 6, bill 118/hr/1968
-2025-10-30 13:19:33,192 INFO Built 1 facts, 0 links
-2025-10-30 13:19:33,193 INFO ✅ Produced: HR.1968 Q6
-2025-10-30 13:19:33,193 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
-2025-10-30 13:19:33,194 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
-2025-10-30 13:19:33,194 INFO Links: []
-2025-10-30 13:19:33,194 INFO Metadata: {"amendment_count": 0}
-2025-10-30 13:19:33,194 INFO Processing: HR.1968 Question 7
-2025-10-30 13:19:33,195 INFO Building facts for question 7, bill 118/hr/1968
-2025-10-30 13:19:33,536 INFO Built 1 facts, 0 links
-2025-10-30 13:19:33,536 INFO ✅ Produced: HR.1968 Q7
-2025-10-30 13:19:33,537 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
-2025-10-30 13:19:33,537 INFO Facts: [{"text": "No vote data found in actions", "link": ""}]
-2025-10-30 13:19:33,537 INFO Links: []
-2025-10-30 13:19:33,537 INFO Metadata: {"vote_action_count": 0}
+2025-10-30 16:48:03,421 INFO Fetcher subscribed to tasks.questions
+2025-10-30 16:48:42,872 INFO Processing: HR.1 Question 1
+2025-10-30 16:48:42,874 INFO Building facts for question 1, bill 119/hr/1
+2025-10-30 16:48:44,348 INFO Built 4 facts, 1 links
+2025-10-30 16:48:44,352 INFO ✅ Produced: HR.1 Q1
+2025-10-30 16:48:44,352 INFO Question: What does this bill do? Where is it in the process?
+2025-10-30 16:48:44,352 INFO Facts: [{"text": "Bill Title: One Big Beautiful Bill Act", "link": ""}, {"text": "Summary: One Big Beautiful Bill ActThis bill reduces taxes, reduces or increases spending for various federal programs, increases the statutory debt limit, and otherwise addresses agencies and programs throughout the federal government. &nbsp;It is known as a reconciliation bill and includes legislation submitted by 11 House committees pursuant to provisions in the FY2025 congressional budget resolution (H Con. Res. 14) that directed the committees to submit legislation to the House Budget Committee that", "link": ""}, {"text": "Current Status: Became Public Law No: 119-21. (Date: 2025-07-04)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/119th-congress/house-bill/1"}]
+2025-10-30 16:48:44,353 INFO Links: ["https://www.congress.gov/bill/119th-congress/house-bill/1"]
+2025-10-30 16:48:44,353 INFO Metadata: {"bill_title": "One Big Beautiful Bill Act", "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/1"}
+2025-10-30 16:48:44,353 INFO Processing: HR.1 Question 2
+2025-10-30 16:48:44,353 INFO Building facts for question 2, bill 119/hr/1
+2025-10-30 16:48:44,855 INFO Built 2 facts, 1 links
+2025-10-30 16:48:44,861 INFO ✅ Produced: HR.1 Q2
+2025-10-30 16:48:44,861 INFO Question: What committees is this bill in?
+2025-10-30 16:48:44,861 INFO Facts: [{"text": "Committee: Budget Committee", "link": ""}, {"text": "View Budget Committee committee page", "link": "https://www.congress.gov/committee/house-budget-committee/hsbu00"}]
+2025-10-30 16:48:44,861 INFO Links: ["https://www.congress.gov/committee/house-budget-committee/hsbu00"]
+2025-10-30 16:48:44,862 INFO Metadata: {"bill_committee_ids": ["HSBU00"]}
+2025-10-30 16:48:44,862 INFO Processing: HR.1 Question 3
+2025-10-30 16:48:44,862 INFO Building facts for question 3, bill 119/hr/1
+2025-10-30 16:48:45,227 INFO Built 2 facts, 1 links
+2025-10-30 16:48:45,229 INFO ✅ Produced: HR.1 Q3
+2025-10-30 16:48:45,236 INFO Question: Who is the sponsor?
+2025-10-30 16:48:45,236 INFO Facts: [{"text": "Sponsor: Rep. Arrington, Jodey C. [R-TX-19] (R-TX-19)", "link": ""}, {"text": "View sponsor profile: Rep. Arrington, Jodey C. [R-TX-19]", "link": "https://www.congress.gov/member/rep-arrington-jodey-c/A000375"}]
+2025-10-30 16:48:45,236 INFO Links: ["https://www.congress.gov/member/rep-arrington-jodey-c/A000375"]
+2025-10-30 16:48:45,236 INFO Metadata: {"sponsor_bioguide_id": "A000375"}
+2025-10-30 16:48:45,237 INFO Processing: HR.1 Question 4
+2025-10-30 16:48:45,238 INFO Building facts for question 4, bill 119/hr/1
+2025-10-30 16:48:46,459 INFO Built 3 facts, 1 links
+2025-10-30 16:48:46,461 INFO ✅ Produced: HR.1 Q4
+2025-10-30 16:48:46,463 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
+2025-10-30 16:48:46,464 INFO Facts: [{"text": "Total cosponsors: 0", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "Committees: Budget Committee", "link": ""}]
+2025-10-30 16:48:46,464 INFO Links: ["https://www.congress.gov/committee/house-budget-committee/hsbu00"]
+2025-10-30 16:48:46,468 INFO Metadata: {"cosponsor_count": 0, "committee_codes": ["hsbu00"]}
+2025-10-30 16:48:46,468 INFO Processing: HR.1 Question 5
+2025-10-30 16:48:46,468 INFO Building facts for question 5, bill 119/hr/1
+2025-10-30 16:48:46,468 INFO Built 1 facts, 0 links
+2025-10-30 16:48:46,469 INFO ✅ Produced: HR.1 Q5
+2025-10-30 16:48:46,475 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
+2025-10-30 16:48:46,476 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
+2025-10-30 16:48:46,480 INFO Links: []
+2025-10-30 16:48:46,480 INFO Metadata: {}
+2025-10-30 16:48:46,480 INFO Processing: HR.1 Question 6
+2025-10-30 16:48:46,481 INFO Building facts for question 6, bill 119/hr/1
+2025-10-30 16:48:47,213 INFO Built 6 facts, 0 links
+2025-10-30 16:48:47,223 INFO ✅ Produced: HR.1 Q6
+2025-10-30 16:48:47,225 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
+2025-10-30 16:48:47,227 INFO Facts: [{"text": "Total amendments: 20", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}]
+2025-10-30 16:48:47,228 INFO Links: []
+2025-10-30 16:48:47,228 INFO Metadata: {"amendment_count": 20}
+2025-10-30 16:48:47,233 INFO Processing: HR.1 Question 7
+2025-10-30 16:48:47,234 INFO Building facts for question 7, bill 119/hr/1
+2025-10-30 16:48:48,132 INFO Built 4 facts, 0 links
+2025-10-30 16:48:48,134 INFO ✅ Produced: HR.1 Q7
+2025-10-30 16:48:48,135 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
+2025-10-30 16:48:48,135 INFO Facts: [{"text": "Found 7 vote-related actions", "link": ""}, {"text": "Vote: On motion that the House agree to the Senate amendment Agreed to by recorded vote: 218 - 214 (Roll no. 190). (text: CR H3059-3143) (Date: 2025-07-03)", "link": ""}, {"text": "Vote: Resolving differences -- House actions: On motion that the House agree to the Senate amendment Agreed to by recorded vote: 218 - 214 (Roll no. 190). (Date: 2025-07-03)", "link": ""}, {"text": "Vote: Passed Senate with an amendment by Yea-Nay Vote. 51 - 50. Record Vote Number: 372. (Date: 2025-07-01)", "link": ""}]
+2025-10-30 16:48:48,135 INFO Links: []
+2025-10-30 16:48:48,135 INFO Metadata: {"vote_action_count": 7}
+2025-10-30 16:48:48,135 INFO Processing: HR.5371 Question 1
+2025-10-30 16:48:48,135 INFO Building facts for question 1, bill 119/hr/5371
+2025-10-30 16:48:48,848 INFO Built 4 facts, 1 links
+2025-10-30 16:48:48,852 INFO ✅ Produced: HR.5371 Q1
+2025-10-30 16:48:48,853 INFO Question: What does this bill do? Where is it in the process?
+2025-10-30 16:48:48,854 INFO Facts: [{"text": "Bill Title: Continuing Appropriations and Extensions Act, 2026", "link": ""}, {"text": "Summary: Continuing Appropriations and Extensions Act, 2026This bill provides continuing FY2026 appropriations for federal agencies, provides additional funding for security for federal officials, and extends various expiring programs and authorities.Specifically, the bill provides continuing FY2026 appropriations to federal agencies through the earlier of November 21, 2025, or the enactment of the applicable appropriations act. It is known as a continuing resolution (CR) and prevents a government shutdo", "link": ""}, {"text": "Current Status: Motion to proceed to consideration of measure made in Senate. (Date: 2025-10-29)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/119th-congress/house-bill/5371"}]
+2025-10-30 16:48:48,854 INFO Links: ["https://www.congress.gov/bill/119th-congress/house-bill/5371"]
+2025-10-30 16:48:48,856 INFO Metadata: {"bill_title": "Continuing Appropriations and Extensions Act, 2026", "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/5371"}
+2025-10-30 16:48:48,860 INFO Processing: HR.5371 Question 2
+2025-10-30 16:48:48,860 INFO Building facts for question 2, bill 119/hr/5371
+2025-10-30 16:48:49,223 INFO Built 4 facts, 2 links
+2025-10-30 16:48:49,225 INFO ✅ Produced: HR.5371 Q2
+2025-10-30 16:48:49,226 INFO Question: What committees is this bill in?
+2025-10-30 16:48:49,233 INFO Facts: [{"text": "Committee: Appropriations Committee", "link": ""}, {"text": "View Appropriations Committee committee page", "link": "https://www.congress.gov/committee/house-appropriations-committee/hsap00"}, {"text": "Committee: Budget Committee", "link": ""}, {"text": "View Budget Committee committee page", "link": "https://www.congress.gov/committee/house-budget-committee/hsbu00"}]
+2025-10-30 16:48:49,235 INFO Links: ["https://www.congress.gov/committee/house-appropriations-committee/hsap00", "https://www.congress.gov/committee/house-budget-committee/hsbu00"]
+2025-10-30 16:48:49,235 INFO Metadata: {"bill_committee_ids": ["HSAP00", "HSBU00"]}
+2025-10-30 16:48:49,235 INFO Processing: HR.5371 Question 3
+2025-10-30 16:48:49,235 INFO Building facts for question 3, bill 119/hr/5371
+2025-10-30 16:48:49,581 INFO Built 2 facts, 1 links
+2025-10-30 16:48:49,584 INFO ✅ Produced: HR.5371 Q3
+2025-10-30 16:48:49,584 INFO Question: Who is the sponsor?
+2025-10-30 16:48:49,584 INFO Facts: [{"text": "Sponsor: Rep. Cole, Tom [R-OK-4] (R-OK-4)", "link": ""}, {"text": "View sponsor profile: Rep. Cole, Tom [R-OK-4]", "link": "https://www.congress.gov/member/rep-cole-tom/C001053"}]
+2025-10-30 16:48:49,584 INFO Links: ["https://www.congress.gov/member/rep-cole-tom/C001053"]
+2025-10-30 16:48:49,584 INFO Metadata: {"sponsor_bioguide_id": "C001053"}
+2025-10-30 16:48:49,584 INFO Processing: HR.5371 Question 4
+2025-10-30 16:48:49,584 INFO Building facts for question 4, bill 119/hr/5371
+2025-10-30 16:48:50,659 INFO Built 3 facts, 2 links
+2025-10-30 16:48:50,662 INFO ✅ Produced: HR.5371 Q4
+2025-10-30 16:48:50,662 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
+2025-10-30 16:48:50,663 INFO Facts: [{"text": "Total cosponsors: 0", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "Committees: Appropriations Committee, Budget Committee", "link": ""}]
+2025-10-30 16:48:50,663 INFO Links: ["https://www.congress.gov/committee/house-appropriations-committee/hsap00", "https://www.congress.gov/committee/house-budget-committee/hsbu00"]
+2025-10-30 16:48:50,663 INFO Metadata: {"cosponsor_count": 0, "committee_codes": ["hsap00", "hsbu00"]}
+2025-10-30 16:48:50,663 INFO Processing: HR.5371 Question 5
+2025-10-30 16:48:50,663 INFO Building facts for question 5, bill 119/hr/5371
+2025-10-30 16:48:50,663 INFO Built 1 facts, 0 links
+2025-10-30 16:48:50,663 INFO ✅ Produced: HR.5371 Q5
+2025-10-30 16:48:50,663 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
+2025-10-30 16:48:50,663 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
+2025-10-30 16:48:50,663 INFO Links: []
+2025-10-30 16:48:50,664 INFO Metadata: {}
+2025-10-30 16:48:50,664 INFO Processing: HR.5371 Question 6
+2025-10-30 16:48:50,664 INFO Building facts for question 6, bill 119/hr/5371
+2025-10-30 16:48:51,135 INFO Built 1 facts, 0 links
+2025-10-30 16:48:51,137 INFO ✅ Produced: HR.5371 Q6
+2025-10-30 16:48:51,138 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
+2025-10-30 16:48:51,138 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
+2025-10-30 16:48:51,138 INFO Links: []
+2025-10-30 16:48:51,140 INFO Metadata: {"amendment_count": 0}
+2025-10-30 16:48:51,142 INFO Processing: HR.5371 Question 7
+2025-10-30 16:48:51,142 INFO Building facts for question 7, bill 119/hr/5371
+2025-10-30 16:48:51,503 INFO Built 4 facts, 0 links
+2025-10-30 16:48:51,508 INFO ✅ Produced: HR.5371 Q7
+2025-10-30 16:48:51,514 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
+2025-10-30 16:48:51,518 INFO Facts: [{"text": "Found 10 vote-related actions", "link": ""}, {"text": "Vote: Upon reconsideration, the fourth cloture on the motion to proceed to H.R. 5371 not invoked in Senate by Yea-Nay Vote. 54 - 45. Record Vote Number: 590. (Date: 2025-10-28)", "link": ""}, {"text": "Vote: Motion by Senator Thune to reconsider the vote by which the fourth cloture on the motion to proceed to H.R. 5371 was not invoked (Record Vote No. 571) agreed to in Senate by Voice Vote. (Date: 2025-10-28)", "link": ""}, {"text": "Vote: Motion to proceed to consideration of the motion to reconsider the vote by which the fourth cloture on the motion to proceed to H.R. 5371 was not invoked (Record Vote No. 571) agreed to in Senate by Voice Vote. (Date: 2025-10-28)", "link": ""}]
+2025-10-30 16:48:51,523 INFO Links: []
+2025-10-30 16:48:51,524 INFO Metadata: {"vote_action_count": 10}
+2025-10-30 16:48:51,524 INFO Processing: HR.5401 Question 1
+2025-10-30 16:48:51,524 INFO Building facts for question 1, bill 119/hr/5401
+2025-10-30 16:48:52,337 INFO Built 4 facts, 1 links
+2025-10-30 16:48:52,356 INFO ✅ Produced: HR.5401 Q1
+2025-10-30 16:48:52,356 INFO Question: What does this bill do? Where is it in the process?
+2025-10-30 16:48:52,356 INFO Facts: [{"text": "Bill Title: Pay Our Troops Act of 2026", "link": ""}, {"text": "Summary: Pay Our Troops Act of 2026This bill provides continuing appropriations for military pay for any period during which interim or full-year appropriations for FY2026 are not in effect (i.e., a government shutdown).Specifically, the bill provides FY2026 continuing appropriations for the pay and allowances of (1) members of the Armed Forces, including reserve components, who perform active service during the period; and (2) civilian personnel and contractors of the Department of Defense (and the Depa", "link": ""}, {"text": "Current Status: Referred to the House Committee on Appropriations. (Date: 2025-09-16)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/119th-congress/house-bill/5401"}]
+2025-10-30 16:48:52,356 INFO Links: ["https://www.congress.gov/bill/119th-congress/house-bill/5401"]
+2025-10-30 16:48:52,356 INFO Metadata: {"bill_title": "Pay Our Troops Act of 2026", "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/5401"}
+2025-10-30 16:48:52,356 INFO Processing: HR.5401 Question 2
+2025-10-30 16:48:52,357 INFO Building facts for question 2, bill 119/hr/5401
+2025-10-30 16:48:52,754 INFO Built 2 facts, 1 links
+2025-10-30 16:48:52,763 INFO ✅ Produced: HR.5401 Q2
+2025-10-30 16:48:52,763 INFO Question: What committees is this bill in?
+2025-10-30 16:48:52,763 INFO Facts: [{"text": "Committee: Appropriations Committee", "link": ""}, {"text": "View Appropriations Committee committee page", "link": "https://www.congress.gov/committee/house-appropriations-committee/hsap00"}]
+2025-10-30 16:48:52,763 INFO Links: ["https://www.congress.gov/committee/house-appropriations-committee/hsap00"]
+2025-10-30 16:48:52,764 INFO Metadata: {"bill_committee_ids": ["HSAP00"]}
+2025-10-30 16:48:52,764 INFO Processing: HR.5401 Question 3
+2025-10-30 16:48:52,764 INFO Building facts for question 3, bill 119/hr/5401
+2025-10-30 16:48:53,120 INFO Built 2 facts, 1 links
+2025-10-30 16:48:53,120 INFO ✅ Produced: HR.5401 Q3
+2025-10-30 16:48:53,120 INFO Question: Who is the sponsor?
+2025-10-30 16:48:53,120 INFO Facts: [{"text": "Sponsor: Rep. Kiggans, Jennifer A. [R-VA-2] (R-VA-2)", "link": ""}, {"text": "View sponsor profile: Rep. Kiggans, Jennifer A. [R-VA-2]", "link": "https://www.congress.gov/member/rep-kiggans-jennifer-a/K000399"}]
+2025-10-30 16:48:53,120 INFO Links: ["https://www.congress.gov/member/rep-kiggans-jennifer-a/K000399"]
+2025-10-30 16:48:53,120 INFO Metadata: {"sponsor_bioguide_id": "K000399"}
+2025-10-30 16:48:53,120 INFO Processing: HR.5401 Question 4
+2025-10-30 16:48:53,121 INFO Building facts for question 4, bill 119/hr/5401
+2025-10-30 16:48:54,156 INFO Built 13 facts, 6 links
+2025-10-30 16:48:54,158 INFO ✅ Produced: HR.5401 Q4
+2025-10-30 16:48:54,159 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
+2025-10-30 16:48:54,159 INFO Facts: [{"text": "Total cosponsors: 20", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Rep. Fitzpatrick, Brian K. [R-PA-1] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Fitzpatrick, Brian K. [R-PA-1]", "link": "https://www.congress.gov/member/rep-fitzpatrick-brian-k/F000466"}, {"text": "- Rep. Mace, Nancy [R-SC-1] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Mace, Nancy [R-SC-1]", "link": "https://www.congress.gov/member/rep-mace-nancy/M000194"}, {"text": "- Rep. Kean, Thomas H. [R-NJ-7] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Kean, Thomas H. [R-NJ-7]", "link": "https://www.congress.gov/member/rep-kean-thomas-h/K000398"}, {"text": "- Rep. Crenshaw, Dan [R-TX-2] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Crenshaw, Dan [R-TX-2]", "link": "https://www.congress.gov/member/rep-crenshaw-dan/C001120"}, {"text": "- Rep. Nunn, Zachary [R-IA-3] (R)", "link": ""}, {"text": "View cosponsor profile: Rep. Nunn, Zachary [R-IA-3]", "link": "https://www.congress.gov/member/rep-nunn-zachary/N000193"}, {"text": "Committees: Appropriations Committee", "link": ""}]
+2025-10-30 16:48:54,159 INFO Links: ["https://www.congress.gov/member/rep-fitzpatrick-brian-k/F000466", "https://www.congress.gov/member/rep-mace-nancy/M000194", "https://www.congress.gov/member/rep-kean-thomas-h/K000398", "https://www.congress.gov/member/rep-crenshaw-dan/C001120", "https://www.congress.gov/member/rep-nunn-zachary/N000193", "https://www.congress.gov/committee/house-appropriations-committee/hsap00"]
+2025-10-30 16:48:54,159 INFO Metadata: {"cosponsor_count": 20, "committee_codes": ["hsap00"]}
+2025-10-30 16:48:54,160 INFO Processing: HR.5401 Question 5
+2025-10-30 16:48:54,160 INFO Building facts for question 5, bill 119/hr/5401
+2025-10-30 16:48:54,160 INFO Built 1 facts, 0 links
+2025-10-30 16:48:54,160 INFO ✅ Produced: HR.5401 Q5
+2025-10-30 16:48:54,160 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
+2025-10-30 16:48:54,161 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
+2025-10-30 16:48:54,161 INFO Links: []
+2025-10-30 16:48:54,161 INFO Metadata: {}
+2025-10-30 16:48:54,161 INFO Processing: HR.5401 Question 6
+2025-10-30 16:48:54,161 INFO Building facts for question 6, bill 119/hr/5401
+2025-10-30 16:48:54,631 INFO Built 1 facts, 0 links
+2025-10-30 16:48:54,632 INFO ✅ Produced: HR.5401 Q6
+2025-10-30 16:48:54,632 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
+2025-10-30 16:48:54,632 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
+2025-10-30 16:48:54,632 INFO Links: []
+2025-10-30 16:48:54,632 INFO Metadata: {"amendment_count": 0}
+2025-10-30 16:48:54,632 INFO Processing: HR.5401 Question 7
+2025-10-30 16:48:54,633 INFO Building facts for question 7, bill 119/hr/5401
+2025-10-30 16:48:55,168 INFO Built 1 facts, 0 links
+2025-10-30 16:48:55,168 INFO ✅ Produced: HR.5401 Q7
+2025-10-30 16:48:55,168 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
+2025-10-30 16:48:55,168 INFO Facts: [{"text": "No vote data found in actions", "link": ""}]
+2025-10-30 16:48:55,169 INFO Links: []
+2025-10-30 16:48:55,169 INFO Metadata: {"vote_action_count": 0}
+2025-10-30 16:48:55,169 INFO Processing: S.2296 Question 1
+2025-10-30 16:48:55,172 INFO Building facts for question 1, bill 119/s/2296
+2025-10-30 16:48:55,982 INFO Built 4 facts, 1 links
+2025-10-30 16:48:55,983 INFO ✅ Produced: S.2296 Q1
+2025-10-30 16:48:55,984 INFO Question: What does this bill do? Where is it in the process?
+2025-10-30 16:48:55,984 INFO Facts: [{"text": "Bill Title: National Defense Authorization Act for Fiscal Year 2026", "link": ""}, {"text": "Summary: National Defense Authorization Act for Fiscal Year 2026This bill sets forth policies and authorities for FY2026 for&nbsp;Department of Defense (DOD) programs and activities, military construction, and the national security programs of the Department of Energy (DOE). It also authorizes the Defense Nuclear Facilities Safety Board for FY2026. The bill authorizes appropriations but it does not provide budget authority, which is provided by appropriations legislation.Among other elements, the billaut", "link": ""}, {"text": "Current Status: Passed Senate under the order of 10/9/2025, having achieved 60 votes in the affirmative, with an amendment by Yea-Nay Vote. 77 - 20. Record Vote Number: 570. (Date: 2025-10-09)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/119th-congress/senate-bill/2296"}]
+2025-10-30 16:48:55,985 INFO Links: ["https://www.congress.gov/bill/119th-congress/senate-bill/2296"]
+2025-10-30 16:48:55,985 INFO Metadata: {"bill_title": "National Defense Authorization Act for Fiscal Year 2026", "bill_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2296"}
+2025-10-30 16:48:55,985 INFO Processing: S.2296 Question 2
+2025-10-30 16:48:55,985 INFO Building facts for question 2, bill 119/s/2296
+2025-10-30 16:48:56,457 INFO Built 2 facts, 1 links
+2025-10-30 16:48:56,458 INFO ✅ Produced: S.2296 Q2
+2025-10-30 16:48:56,458 INFO Question: What committees is this bill in?
+2025-10-30 16:48:56,458 INFO Facts: [{"text": "Committee: Armed Services Committee", "link": ""}, {"text": "View Armed Services Committee committee page", "link": "https://www.congress.gov/committee/house-armed-services-committee/ssas00"}]
+2025-10-30 16:48:56,458 INFO Links: ["https://www.congress.gov/committee/house-armed-services-committee/ssas00"]
+2025-10-30 16:48:56,458 INFO Metadata: {"bill_committee_ids": ["SSAS00"]}
+2025-10-30 16:48:56,459 INFO Processing: S.2296 Question 3
+2025-10-30 16:48:56,459 INFO Building facts for question 3, bill 119/s/2296
+2025-10-30 16:48:56,800 INFO Built 2 facts, 1 links
+2025-10-30 16:48:56,801 INFO ✅ Produced: S.2296 Q3
+2025-10-30 16:48:56,801 INFO Question: Who is the sponsor?
+2025-10-30 16:48:56,830 INFO Facts: [{"text": "Sponsor: Sen. Wicker, Roger F. [R-MS] (R-MS)", "link": ""}, {"text": "View sponsor profile: Sen. Wicker, Roger F. [R-MS]", "link": "https://www.congress.gov/member/sen-wicker-roger-f/W000437"}]
+2025-10-30 16:48:56,830 INFO Links: ["https://www.congress.gov/member/sen-wicker-roger-f/W000437"]
+2025-10-30 16:48:56,830 INFO Metadata: {"sponsor_bioguide_id": "W000437"}
+2025-10-30 16:48:56,830 INFO Processing: S.2296 Question 4
+2025-10-30 16:48:56,830 INFO Building facts for question 4, bill 119/s/2296
+2025-10-30 16:48:58,029 INFO Built 3 facts, 1 links
+2025-10-30 16:48:58,034 INFO ✅ Produced: S.2296 Q4
+2025-10-30 16:48:58,034 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
+2025-10-30 16:48:58,034 INFO Facts: [{"text": "Total cosponsors: 0", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "Committees: Armed Services Committee", "link": ""}]
+2025-10-30 16:48:58,035 INFO Links: ["https://www.congress.gov/committee/house-armed-services-committee/ssas00"]
+2025-10-30 16:48:58,035 INFO Metadata: {"cosponsor_count": 0, "committee_codes": ["ssas00"]}
+2025-10-30 16:48:58,035 INFO Processing: S.2296 Question 5
+2025-10-30 16:48:58,038 INFO Building facts for question 5, bill 119/s/2296
+2025-10-30 16:48:58,038 INFO Built 1 facts, 0 links
+2025-10-30 16:48:58,041 INFO ✅ Produced: S.2296 Q5
+2025-10-30 16:48:58,042 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
+2025-10-30 16:48:58,043 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
+2025-10-30 16:48:58,043 INFO Links: []
+2025-10-30 16:48:58,043 INFO Metadata: {}
+2025-10-30 16:48:58,043 INFO Processing: S.2296 Question 6
+2025-10-30 16:48:58,045 INFO Building facts for question 6, bill 119/s/2296
+2025-10-30 16:48:58,680 INFO Built 6 facts, 0 links
+2025-10-30 16:48:58,681 INFO ✅ Produced: S.2296 Q6
+2025-10-30 16:48:58,681 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
+2025-10-30 16:48:58,681 INFO Facts: [{"text": "Total amendments: 20", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}]
+2025-10-30 16:48:58,681 INFO Links: []
+2025-10-30 16:48:58,681 INFO Metadata: {"amendment_count": 20}
+2025-10-30 16:48:58,681 INFO Processing: S.2296 Question 7
+2025-10-30 16:48:58,681 INFO Building facts for question 7, bill 119/s/2296
+2025-10-30 16:48:59,014 INFO Built 4 facts, 0 links
+2025-10-30 16:48:59,015 INFO ✅ Produced: S.2296 Q7
+2025-10-30 16:48:59,015 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
+2025-10-30 16:48:59,015 INFO Facts: [{"text": "Found 4 vote-related actions", "link": ""}, {"text": "Vote: Passed Senate under the order of 10/9/2025, having achieved 60 votes in the affirmative, with an amendment by Yea-Nay Vote. 77 - 20. Record Vote Number: 570. (Date: 2025-10-09)", "link": ""}, {"text": "Vote: Passed/agreed to in Senate: Passed Senate under the order of 10/9/2025, having achieved 60 votes in the affirmative, with an amendment by Yea-Nay Vote. 77 - 20. Record Vote Number: 570. (Date: 2025-10-09)", "link": ""}, {"text": "Vote: Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 83 - 13. Record Vote Number: 503. (CR S6054) (Date: 2025-09-04)", "link": ""}]
+2025-10-30 16:48:59,016 INFO Links: []
+2025-10-30 16:48:59,016 INFO Metadata: {"vote_action_count": 4}
+2025-10-30 16:48:59,016 INFO Processing: S.24 Question 1
+2025-10-30 16:48:59,016 INFO Building facts for question 1, bill 119/s/24
+2025-10-30 16:49:00,072 INFO Built 4 facts, 1 links
+2025-10-30 16:49:00,073 INFO ✅ Produced: S.24 Q1
+2025-10-30 16:49:00,073 INFO Question: What does this bill do? Where is it in the process?
+2025-10-30 16:49:00,073 INFO Facts: [{"text": "Bill Title: A bill to designate the facility of the United States Postal Service located at 154 First Avenue East in Jerome, Idaho, as the \"Representative Maxine Bell Post Office\".", "link": ""}, {"text": "Summary: This bill designates the facility of the U.S. Postal Service located at 154 First Avenue East in Jerome, Idaho, as the Representative Maxine Bell Post Office.", "link": ""}, {"text": "Current Status: Read twice and referred to the Committee on Homeland Security and Governmental Affairs. (Date: 2025-01-07)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/119th-congress/senate-bill/24"}]
+2025-10-30 16:49:00,073 INFO Links: ["https://www.congress.gov/bill/119th-congress/senate-bill/24"]
+2025-10-30 16:49:00,073 INFO Metadata: {"bill_title": "A bill to designate the facility of the United States Postal Service located at 154 First Avenue East in Jerome, Idaho, as the \"Representative Maxine Bell Post Office\".", "bill_url": "https://www.congress.gov/bill/119th-congress/senate-bill/24"}
+2025-10-30 16:49:00,073 INFO Processing: S.24 Question 2
+2025-10-30 16:49:00,073 INFO Building facts for question 2, bill 119/s/24
+2025-10-30 16:49:00,571 INFO Built 2 facts, 1 links
+2025-10-30 16:49:00,573 INFO ✅ Produced: S.24 Q2
+2025-10-30 16:49:00,573 INFO Question: What committees is this bill in?
+2025-10-30 16:49:00,573 INFO Facts: [{"text": "Committee: Homeland Security and Governmental Affairs Committee", "link": ""}, {"text": "View Homeland Security and Governmental Affairs Committee committee page", "link": "https://www.congress.gov/committee/house-homeland-security-and-governmental-affairs-committee/ssga00"}]
+2025-10-30 16:49:00,574 INFO Links: ["https://www.congress.gov/committee/house-homeland-security-and-governmental-affairs-committee/ssga00"]
+2025-10-30 16:49:00,574 INFO Metadata: {"bill_committee_ids": ["SSGA00"]}
+2025-10-30 16:49:00,574 INFO Processing: S.24 Question 3
+2025-10-30 16:49:00,574 INFO Building facts for question 3, bill 119/s/24
+2025-10-30 16:49:00,923 INFO Built 2 facts, 1 links
+2025-10-30 16:49:00,924 INFO ✅ Produced: S.24 Q3
+2025-10-30 16:49:00,924 INFO Question: Who is the sponsor?
+2025-10-30 16:49:00,925 INFO Facts: [{"text": "Sponsor: Sen. Crapo, Mike [R-ID] (R-ID)", "link": ""}, {"text": "View sponsor profile: Sen. Crapo, Mike [R-ID]", "link": "https://www.congress.gov/member/sen-crapo-mike/C000880"}]
+2025-10-30 16:49:00,925 INFO Links: ["https://www.congress.gov/member/sen-crapo-mike/C000880"]
+2025-10-30 16:49:00,925 INFO Metadata: {"sponsor_bioguide_id": "C000880"}
+2025-10-30 16:49:00,925 INFO Processing: S.24 Question 4
+2025-10-30 16:49:00,925 INFO Building facts for question 4, bill 119/s/24
+2025-10-30 16:49:02,207 INFO Built 5 facts, 2 links
+2025-10-30 16:49:02,217 INFO ✅ Produced: S.24 Q4
+2025-10-30 16:49:02,218 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
+2025-10-30 16:49:02,218 INFO Facts: [{"text": "Total cosponsors: 1", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Sen. Risch, James E. [R-ID] (R)", "link": ""}, {"text": "View cosponsor profile: Sen. Risch, James E. [R-ID]", "link": "https://www.congress.gov/member/sen-risch-james-e/R000584"}, {"text": "Committees: Homeland Security and Governmental Affairs Committee", "link": ""}]
+2025-10-30 16:49:02,218 INFO Links: ["https://www.congress.gov/member/sen-risch-james-e/R000584", "https://www.congress.gov/committee/house-homeland-security-and-governmental-affairs-committee/ssga00"]
+2025-10-30 16:49:02,218 INFO Metadata: {"cosponsor_count": 1, "committee_codes": ["ssga00"]}
+2025-10-30 16:49:02,219 INFO Processing: S.24 Question 5
+2025-10-30 16:49:02,229 INFO Building facts for question 5, bill 119/s/24
+2025-10-30 16:49:02,229 INFO Built 1 facts, 0 links
+2025-10-30 16:49:02,232 INFO ✅ Produced: S.24 Q5
+2025-10-30 16:49:02,232 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
+2025-10-30 16:49:02,232 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
+2025-10-30 16:49:02,232 INFO Links: []
+2025-10-30 16:49:02,232 INFO Metadata: {}
+2025-10-30 16:49:02,233 INFO Processing: S.24 Question 6
+2025-10-30 16:49:02,233 INFO Building facts for question 6, bill 119/s/24
+2025-10-30 16:49:02,690 INFO Built 1 facts, 0 links
+2025-10-30 16:49:02,693 INFO ✅ Produced: S.24 Q6
+2025-10-30 16:49:02,693 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
+2025-10-30 16:49:02,693 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
+2025-10-30 16:49:02,693 INFO Links: []
+2025-10-30 16:49:02,693 INFO Metadata: {"amendment_count": 0}
+2025-10-30 16:49:02,693 INFO Processing: S.24 Question 7
+2025-10-30 16:49:02,693 INFO Building facts for question 7, bill 119/s/24
+2025-10-30 16:49:03,288 INFO Built 1 facts, 0 links
+2025-10-30 16:49:03,291 INFO ✅ Produced: S.24 Q7
+2025-10-30 16:49:03,291 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
+2025-10-30 16:49:03,291 INFO Facts: [{"text": "No vote data found in actions", "link": ""}]
+2025-10-30 16:49:03,291 INFO Links: []
+2025-10-30 16:49:03,301 INFO Metadata: {"vote_action_count": 0}
+2025-10-30 16:49:03,301 INFO Processing: S.2882 Question 1
+2025-10-30 16:49:03,301 INFO Building facts for question 1, bill 119/s/2882
+2025-10-30 16:49:04,495 INFO Built 4 facts, 1 links
+2025-10-30 16:49:04,496 INFO ✅ Produced: S.2882 Q1
+2025-10-30 16:49:04,497 INFO Question: What does this bill do? Where is it in the process?
+2025-10-30 16:49:04,501 INFO Facts: [{"text": "Bill Title: Continuing Appropriations and Extensions and Other Matters Act, 2026", "link": ""}, {"text": "Summary: Continuing Appropriations and Extensions and Other Matters Act, 2026This bill provides continuing FY2026 appropriations for federal agencies, permanently extends the expanded premium tax credit for purchasing health insurance, provides additional funding for Medicaid and security for federal officials, and extends various expiring programs.Specifically, the bill provides continuing FY2026 appropriations to federal agencies through the earlier of October 31, 2025, or the enactment of the applicab", "link": ""}, {"text": "Current Status: Motion by Senator Schumer to reconsider, under the order of 10/9/2025, not having voted on the prevailing side, the vote by which the third cloture motion on the motion to proceed to S. 2882 was not invoked (Record Vote No. 557) entered in Senate. (Date: 2025-10-09)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/119th-congress/senate-bill/2882"}]
+2025-10-30 16:49:04,504 INFO Links: ["https://www.congress.gov/bill/119th-congress/senate-bill/2882"]
+2025-10-30 16:49:04,507 INFO Metadata: {"bill_title": "Continuing Appropriations and Extensions and Other Matters Act, 2026", "bill_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2882"}
+2025-10-30 16:49:04,508 INFO Processing: S.2882 Question 2
+2025-10-30 16:49:04,508 INFO Building facts for question 2, bill 119/s/2882
+2025-10-30 16:49:05,024 INFO Built 0 facts, 0 links
+2025-10-30 16:49:05,024 INFO ✅ Produced: S.2882 Q2
+2025-10-30 16:49:05,024 INFO Question: What committees is this bill in?
+2025-10-30 16:49:05,025 INFO Facts: []
+2025-10-30 16:49:05,025 INFO Links: []
+2025-10-30 16:49:05,025 INFO Metadata: {"bill_committee_ids": []}
+2025-10-30 16:49:05,025 INFO Processing: S.2882 Question 3
+2025-10-30 16:49:05,025 INFO Building facts for question 3, bill 119/s/2882
+2025-10-30 16:49:05,368 INFO Built 2 facts, 1 links
+2025-10-30 16:49:05,369 INFO ✅ Produced: S.2882 Q3
+2025-10-30 16:49:05,369 INFO Question: Who is the sponsor?
+2025-10-30 16:49:05,369 INFO Facts: [{"text": "Sponsor: Sen. Murray, Patty [D-WA] (D-WA)", "link": ""}, {"text": "View sponsor profile: Sen. Murray, Patty [D-WA]", "link": "https://www.congress.gov/member/sen-murray-patty/M001111"}]
+2025-10-30 16:49:05,369 INFO Links: ["https://www.congress.gov/member/sen-murray-patty/M001111"]
+2025-10-30 16:49:05,369 INFO Metadata: {"sponsor_bioguide_id": "M001111"}
+2025-10-30 16:49:05,369 INFO Processing: S.2882 Question 4
+2025-10-30 16:49:05,369 INFO Building facts for question 4, bill 119/s/2882
+2025-10-30 16:49:06,563 INFO Built 2 facts, 0 links
+2025-10-30 16:49:06,565 INFO ✅ Produced: S.2882 Q4
+2025-10-30 16:49:06,565 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
+2025-10-30 16:49:06,566 INFO Facts: [{"text": "Total cosponsors: 0", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}]
+2025-10-30 16:49:06,566 INFO Links: []
+2025-10-30 16:49:06,566 INFO Metadata: {"cosponsor_count": 0, "committee_codes": []}
+2025-10-30 16:49:06,567 INFO Processing: S.2882 Question 5
+2025-10-30 16:49:06,568 INFO Building facts for question 5, bill 119/s/2882
+2025-10-30 16:49:06,568 INFO Built 1 facts, 0 links
+2025-10-30 16:49:06,568 INFO ✅ Produced: S.2882 Q5
+2025-10-30 16:49:06,568 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
+2025-10-30 16:49:06,568 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
+2025-10-30 16:49:06,569 INFO Links: []
+2025-10-30 16:49:06,569 INFO Metadata: {}
+2025-10-30 16:49:06,569 INFO Processing: S.2882 Question 6
+2025-10-30 16:49:06,569 INFO Building facts for question 6, bill 119/s/2882
+2025-10-30 16:49:07,043 INFO Built 1 facts, 0 links
+2025-10-30 16:49:07,045 INFO ✅ Produced: S.2882 Q6
+2025-10-30 16:49:07,045 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
+2025-10-30 16:49:07,045 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
+2025-10-30 16:49:07,045 INFO Links: []
+2025-10-30 16:49:07,045 INFO Metadata: {"amendment_count": 0}
+2025-10-30 16:49:07,046 INFO Processing: S.2882 Question 7
+2025-10-30 16:49:07,046 INFO Building facts for question 7, bill 119/s/2882
+2025-10-30 16:49:07,903 INFO Built 4 facts, 0 links
+2025-10-30 16:49:07,907 INFO ✅ Produced: S.2882 Q7
+2025-10-30 16:49:07,908 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
+2025-10-30 16:49:07,909 INFO Facts: [{"text": "Found 14 vote-related actions", "link": ""}, {"text": "Vote: Motion by Senator Schumer to reconsider, under the order of 10/9/2025, not having voted on the prevailing side, the vote by which the third cloture motion on the motion to proceed to S. 2882 was not invoked (Record Vote No. 557) entered in Senate. (Date: 2025-10-09)", "link": ""}, {"text": "Vote: Third cloture motion on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 47 - 50. Record Vote Number: 557. (Date: 2025-10-09)", "link": ""}, {"text": "Vote: Upon reconsideration, the second cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 47 - 52. Record Vote Number: 550. (Date: 2025-10-08)", "link": ""}]
+2025-10-30 16:49:07,909 INFO Links: []
+2025-10-30 16:49:07,909 INFO Metadata: {"vote_action_count": 14}
+2025-10-30 16:49:07,909 INFO Processing: S.499 Question 1
+2025-10-30 16:49:07,909 INFO Building facts for question 1, bill 119/s/499
+2025-10-30 16:49:08,651 INFO Built 4 facts, 1 links
+2025-10-30 16:49:08,653 INFO ✅ Produced: S.499 Q1
+2025-10-30 16:49:08,655 INFO Question: What does this bill do? Where is it in the process?
+2025-10-30 16:49:08,655 INFO Facts: [{"text": "Bill Title: Government Shutdown Prevention Act of 2025", "link": ""}, {"text": "Summary: Government Shutdown Prevention Act of 2025This bill provides continuing appropriations to prevent a government shutdown if an appropriations bill for a fiscal year has not been enacted before the fiscal year begins and continuing appropriations are not in effect.For an initial 90-day period, the bill provides continuing appropriations at 94% of the rate for the preceding year to continue programs, projects, and activities for which funds were provided in the preceding fiscal year. The bill reduc", "link": ""}, {"text": "Current Status: Read twice and referred to the Committee on Appropriations. (Date: 2025-02-10)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/119th-congress/senate-bill/499"}]
+2025-10-30 16:49:08,655 INFO Links: ["https://www.congress.gov/bill/119th-congress/senate-bill/499"]
+2025-10-30 16:49:08,655 INFO Metadata: {"bill_title": "Government Shutdown Prevention Act of 2025", "bill_url": "https://www.congress.gov/bill/119th-congress/senate-bill/499"}
+2025-10-30 16:49:08,656 INFO Processing: S.499 Question 2
+2025-10-30 16:49:08,656 INFO Building facts for question 2, bill 119/s/499
+2025-10-30 16:49:09,154 INFO Built 2 facts, 1 links
+2025-10-30 16:49:09,156 INFO ✅ Produced: S.499 Q2
+2025-10-30 16:49:09,166 INFO Question: What committees is this bill in?
+2025-10-30 16:49:09,166 INFO Facts: [{"text": "Committee: Appropriations Committee", "link": ""}, {"text": "View Appropriations Committee committee page", "link": "https://www.congress.gov/committee/house-appropriations-committee/ssap00"}]
+2025-10-30 16:49:09,167 INFO Links: ["https://www.congress.gov/committee/house-appropriations-committee/ssap00"]
+2025-10-30 16:49:09,174 INFO Metadata: {"bill_committee_ids": ["SSAP00"]}
+2025-10-30 16:49:09,174 INFO Processing: S.499 Question 3
+2025-10-30 16:49:09,174 INFO Building facts for question 3, bill 119/s/499
+2025-10-30 16:49:09,530 INFO Built 2 facts, 1 links
+2025-10-30 16:49:09,540 INFO ✅ Produced: S.499 Q3
+2025-10-30 16:49:09,540 INFO Question: Who is the sponsor?
+2025-10-30 16:49:09,545 INFO Facts: [{"text": "Sponsor: Sen. Paul, Rand [R-KY] (R-KY)", "link": ""}, {"text": "View sponsor profile: Sen. Paul, Rand [R-KY]", "link": "https://www.congress.gov/member/sen-paul-rand/P000603"}]
+2025-10-30 16:49:09,545 INFO Links: ["https://www.congress.gov/member/sen-paul-rand/P000603"]
+2025-10-30 16:49:09,546 INFO Metadata: {"sponsor_bioguide_id": "P000603"}
+2025-10-30 16:49:09,549 INFO Processing: S.499 Question 4
+2025-10-30 16:49:09,550 INFO Building facts for question 4, bill 119/s/499
+2025-10-30 16:49:10,617 INFO Built 3 facts, 1 links
+2025-10-30 16:49:10,619 INFO ✅ Produced: S.499 Q4
+2025-10-30 16:49:10,620 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
+2025-10-30 16:49:10,620 INFO Facts: [{"text": "Total cosponsors: 0", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "Committees: Appropriations Committee", "link": ""}]
+2025-10-30 16:49:10,620 INFO Links: ["https://www.congress.gov/committee/house-appropriations-committee/ssap00"]
+2025-10-30 16:49:10,620 INFO Metadata: {"cosponsor_count": 0, "committee_codes": ["ssap00"]}
+2025-10-30 16:49:10,623 INFO Processing: S.499 Question 5
+2025-10-30 16:49:10,623 INFO Building facts for question 5, bill 119/s/499
+2025-10-30 16:49:10,623 INFO Built 1 facts, 0 links
+2025-10-30 16:49:10,623 INFO ✅ Produced: S.499 Q5
+2025-10-30 16:49:10,623 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
+2025-10-30 16:49:10,624 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
+2025-10-30 16:49:10,624 INFO Links: []
+2025-10-30 16:49:10,624 INFO Metadata: {}
+2025-10-30 16:49:10,624 INFO Processing: S.499 Question 6
+2025-10-30 16:49:10,624 INFO Building facts for question 6, bill 119/s/499
+2025-10-30 16:49:11,101 INFO Built 1 facts, 0 links
+2025-10-30 16:49:11,103 INFO ✅ Produced: S.499 Q6
+2025-10-30 16:49:11,103 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
+2025-10-30 16:49:11,103 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
+2025-10-30 16:49:11,103 INFO Links: []
+2025-10-30 16:49:11,103 INFO Metadata: {"amendment_count": 0}
+2025-10-30 16:49:11,104 INFO Processing: S.499 Question 7
+2025-10-30 16:49:11,104 INFO Building facts for question 7, bill 119/s/499
+2025-10-30 16:49:11,626 INFO Built 1 facts, 0 links
+2025-10-30 16:49:11,627 INFO ✅ Produced: S.499 Q7
+2025-10-30 16:49:11,627 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
+2025-10-30 16:49:11,627 INFO Facts: [{"text": "No vote data found in actions", "link": ""}]
+2025-10-30 16:49:11,627 INFO Links: []
+2025-10-30 16:49:11,627 INFO Metadata: {"vote_action_count": 0}
+2025-10-30 16:49:11,628 INFO Processing: SRES.412 Question 1
+2025-10-30 16:49:11,628 INFO Building facts for question 1, bill 119/sres/412
+2025-10-30 16:49:12,641 INFO Built 3 facts, 1 links
+2025-10-30 16:49:12,642 INFO ✅ Produced: SRES.412 Q1
+2025-10-30 16:49:12,647 INFO Question: What does this bill do? Where is it in the process?
+2025-10-30 16:49:12,647 INFO Facts: [{"text": "Bill Title: An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.", "link": ""}, {"text": "Current Status: Resolution agreed to in Senate without amendment by Yea-Nay Vote. 51 - 46. Record Vote Number: 541. (Date: 2025-10-03)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/119th-congress/senate-resolution/412"}]
+2025-10-30 16:49:12,647 INFO Links: ["https://www.congress.gov/bill/119th-congress/senate-resolution/412"]
+2025-10-30 16:49:12,647 INFO Metadata: {"bill_title": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.", "bill_url": "https://www.congress.gov/bill/119th-congress/senate-resolution/412"}
+2025-10-30 16:49:12,647 INFO Processing: SRES.412 Question 2
+2025-10-30 16:49:12,647 INFO Building facts for question 2, bill 119/sres/412
+2025-10-30 16:49:13,137 INFO Built 0 facts, 0 links
+2025-10-30 16:49:13,138 INFO ✅ Produced: SRES.412 Q2
+2025-10-30 16:49:13,138 INFO Question: What committees is this bill in?
+2025-10-30 16:49:13,138 INFO Facts: []
+2025-10-30 16:49:13,138 INFO Links: []
+2025-10-30 16:49:13,138 INFO Metadata: {"bill_committee_ids": []}
+2025-10-30 16:49:13,138 INFO Processing: SRES.412 Question 3
+2025-10-30 16:49:13,138 INFO Building facts for question 3, bill 119/sres/412
+2025-10-30 16:49:13,470 INFO Built 2 facts, 1 links
+2025-10-30 16:49:13,471 INFO ✅ Produced: SRES.412 Q3
+2025-10-30 16:49:13,471 INFO Question: Who is the sponsor?
+2025-10-30 16:49:13,471 INFO Facts: [{"text": "Sponsor: Sen. Thune, John [R-SD] (R-SD)", "link": ""}, {"text": "View sponsor profile: Sen. Thune, John [R-SD]", "link": "https://www.congress.gov/member/sen-thune-john/T000250"}]
+2025-10-30 16:49:13,471 INFO Links: ["https://www.congress.gov/member/sen-thune-john/T000250"]
+2025-10-30 16:49:13,471 INFO Metadata: {"sponsor_bioguide_id": "T000250"}
+2025-10-30 16:49:13,471 INFO Processing: SRES.412 Question 4
+2025-10-30 16:49:13,471 INFO Building facts for question 4, bill 119/sres/412
+2025-10-30 16:49:14,667 INFO Built 2 facts, 0 links
+2025-10-30 16:49:14,672 INFO ✅ Produced: SRES.412 Q4
+2025-10-30 16:49:14,673 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
+2025-10-30 16:49:14,674 INFO Facts: [{"text": "Total cosponsors: 0", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}]
+2025-10-30 16:49:14,674 INFO Links: []
+2025-10-30 16:49:14,674 INFO Metadata: {"cosponsor_count": 0, "committee_codes": []}
+2025-10-30 16:49:14,674 INFO Processing: SRES.412 Question 5
+2025-10-30 16:49:14,675 INFO Building facts for question 5, bill 119/sres/412
+2025-10-30 16:49:14,676 INFO Built 1 facts, 0 links
+2025-10-30 16:49:14,676 INFO ✅ Produced: SRES.412 Q5
+2025-10-30 16:49:14,683 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
+2025-10-30 16:49:14,683 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
+2025-10-30 16:49:14,683 INFO Links: []
+2025-10-30 16:49:14,684 INFO Metadata: {}
+2025-10-30 16:49:14,684 INFO Processing: SRES.412 Question 6
+2025-10-30 16:49:14,684 INFO Building facts for question 6, bill 119/sres/412
+2025-10-30 16:49:15,184 INFO Built 3 facts, 0 links
+2025-10-30 16:49:15,189 INFO ✅ Produced: SRES.412 Q6
+2025-10-30 16:49:15,190 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
+2025-10-30 16:49:15,190 INFO Facts: [{"text": "Total amendments: 2", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}]
+2025-10-30 16:49:15,192 INFO Links: []
+2025-10-30 16:49:15,192 INFO Metadata: {"amendment_count": 2}
+2025-10-30 16:49:15,193 INFO Processing: SRES.412 Question 7
+2025-10-30 16:49:15,193 INFO Building facts for question 7, bill 119/sres/412
+2025-10-30 16:49:15,549 INFO Built 4 facts, 0 links
+2025-10-30 16:49:15,550 INFO ✅ Produced: SRES.412 Q7
+2025-10-30 16:49:15,550 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
+2025-10-30 16:49:15,551 INFO Facts: [{"text": "Found 4 vote-related actions", "link": ""}, {"text": "Vote: Resolution agreed to in Senate without amendment by Yea-Nay Vote. 51 - 46. Record Vote Number: 541. (Date: 2025-10-03)", "link": ""}, {"text": "Vote: Passed/agreed to in Senate: Resolution agreed to in Senate without amendment by Yea-Nay Vote. 51 - 46. Record Vote Number: 541. (Date: 2025-10-03)", "link": ""}, {"text": "Vote: Cloture on the measure invoked in Senate by Yea-Nay Vote. 53 - 46. Record Vote Number: 540. (Date: 2025-10-01)", "link": ""}]
+2025-10-30 16:49:15,554 INFO Links: []
+2025-10-30 16:49:15,558 INFO Metadata: {"vote_action_count": 4}
+2025-10-30 16:49:15,558 INFO Processing: HRES.353 Question 1
+2025-10-30 16:49:15,558 INFO Building facts for question 1, bill 119/hres/353
+2025-10-30 16:49:16,570 INFO Built 4 facts, 1 links
+2025-10-30 16:49:16,572 INFO ✅ Produced: HRES.353 Q1
+2025-10-30 16:49:16,572 INFO Question: What does this bill do? Where is it in the process?
+2025-10-30 16:49:16,572 INFO Facts: [{"text": "Bill Title: Impeaching Donald John Trump, President of the United States, for high crimes and misdemeanors.", "link": ""}, {"text": "Summary: This resolution impeaches President Donald Trump for high crimes and misdemeanors.The resolution sets forth seven articles of impeachment of the President: (1) obstruction of justice, violation of due process, and a breach of the duty to faithfully execute laws; (2) usurpation of Congress' appropriations power; (3) abuse of trade powers and international aggression; (4) violation of First Amendment rights; (5) creation of an unlawful office; (6) bribery and corruption; and (7) tyranny.", "link": ""}, {"text": "Current Status: NOTIFICATION OF INTENT TO OFFER RESOLUTION - Mr. Thanedar notified the House of his intent to offer a privileged resolution pursuant to clause 2(a)(1) of rule IX. The Chair announced that a determination will be made at the time designated for consideration of the resolution. (Date: 2025-05-13)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/119th-congress/house-resolution/353"}]
+2025-10-30 16:49:16,572 INFO Links: ["https://www.congress.gov/bill/119th-congress/house-resolution/353"]
+2025-10-30 16:49:16,573 INFO Metadata: {"bill_title": "Impeaching Donald John Trump, President of the United States, for high crimes and misdemeanors.", "bill_url": "https://www.congress.gov/bill/119th-congress/house-resolution/353"}
+2025-10-30 16:49:16,573 INFO Processing: HRES.353 Question 2
+2025-10-30 16:49:16,573 INFO Building facts for question 2, bill 119/hres/353
+2025-10-30 16:49:17,056 INFO Built 2 facts, 1 links
+2025-10-30 16:49:17,056 INFO ✅ Produced: HRES.353 Q2
+2025-10-30 16:49:17,057 INFO Question: What committees is this bill in?
+2025-10-30 16:49:17,057 INFO Facts: [{"text": "Committee: Judiciary Committee", "link": ""}, {"text": "View Judiciary Committee committee page", "link": "https://www.congress.gov/committee/house-judiciary-committee/hsju00"}]
+2025-10-30 16:49:17,057 INFO Links: ["https://www.congress.gov/committee/house-judiciary-committee/hsju00"]
+2025-10-30 16:49:17,057 INFO Metadata: {"bill_committee_ids": ["HSJU00"]}
+2025-10-30 16:49:17,058 INFO Processing: HRES.353 Question 3
+2025-10-30 16:49:17,058 INFO Building facts for question 3, bill 119/hres/353
+2025-10-30 16:49:17,422 INFO Built 2 facts, 1 links
+2025-10-30 16:49:17,423 INFO ✅ Produced: HRES.353 Q3
+2025-10-30 16:49:17,423 INFO Question: Who is the sponsor?
+2025-10-30 16:49:17,423 INFO Facts: [{"text": "Sponsor: Rep. Thanedar, Shri [D-MI-13] (D-MI-13)", "link": ""}, {"text": "View sponsor profile: Rep. Thanedar, Shri [D-MI-13]", "link": "https://www.congress.gov/member/rep-thanedar-shri/T000488"}]
+2025-10-30 16:49:17,423 INFO Links: ["https://www.congress.gov/member/rep-thanedar-shri/T000488"]
+2025-10-30 16:49:17,423 INFO Metadata: {"sponsor_bioguide_id": "T000488"}
+2025-10-30 16:49:17,423 INFO Processing: HRES.353 Question 4
+2025-10-30 16:49:17,423 INFO Building facts for question 4, bill 119/hres/353
+2025-10-30 16:49:18,614 INFO Built 13 facts, 6 links
+2025-10-30 16:49:18,614 INFO ✅ Produced: HRES.353 Q4
+2025-10-30 16:49:18,614 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
+2025-10-30 16:49:18,615 INFO Facts: [{"text": "Total cosponsors: 5", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "- Rep. Mfume, Kweisi [D-MD-7] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Mfume, Kweisi [D-MD-7]", "link": "https://www.congress.gov/member/rep-mfume-kweisi/M000687"}, {"text": "- Rep. Nadler, Jerrold [D-NY-12] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Nadler, Jerrold [D-NY-12]", "link": "https://www.congress.gov/member/rep-nadler-jerrold/N000002"}, {"text": "- Rep. Kelly, Robin L. [D-IL-2] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Kelly, Robin L. [D-IL-2]", "link": "https://www.congress.gov/member/rep-kelly-robin-l/K000385"}, {"text": "- Rep. Schakowsky, Janice D. [D-IL-9] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Schakowsky, Janice D. [D-IL-9]", "link": "https://www.congress.gov/member/rep-schakowsky-janice-d/S001145"}, {"text": "- Rep. Green, Al [D-TX-9] (D)", "link": ""}, {"text": "View cosponsor profile: Rep. Green, Al [D-TX-9]", "link": "https://www.congress.gov/member/rep-green-al/G000553"}, {"text": "Committees: Judiciary Committee", "link": ""}]
+2025-10-30 16:49:18,615 INFO Links: ["https://www.congress.gov/member/rep-mfume-kweisi/M000687", "https://www.congress.gov/member/rep-nadler-jerrold/N000002", "https://www.congress.gov/member/rep-kelly-robin-l/K000385", "https://www.congress.gov/member/rep-schakowsky-janice-d/S001145", "https://www.congress.gov/member/rep-green-al/G000553", "https://www.congress.gov/committee/house-judiciary-committee/hsju00"]
+2025-10-30 16:49:18,615 INFO Metadata: {"cosponsor_count": 5, "committee_codes": ["hsju00"]}
+2025-10-30 16:49:18,615 INFO Processing: HRES.353 Question 5
+2025-10-30 16:49:18,615 INFO Building facts for question 5, bill 119/hres/353
+2025-10-30 16:49:18,615 INFO Built 1 facts, 0 links
+2025-10-30 16:49:18,616 INFO ✅ Produced: HRES.353 Q5
+2025-10-30 16:49:18,616 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
+2025-10-30 16:49:18,616 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
+2025-10-30 16:49:18,616 INFO Links: []
+2025-10-30 16:49:18,616 INFO Metadata: {}
+2025-10-30 16:49:18,616 INFO Processing: HRES.353 Question 6
+2025-10-30 16:49:18,616 INFO Building facts for question 6, bill 119/hres/353
+2025-10-30 16:49:19,071 INFO Built 1 facts, 0 links
+2025-10-30 16:49:19,072 INFO ✅ Produced: HRES.353 Q6
+2025-10-30 16:49:19,072 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
+2025-10-30 16:49:19,072 INFO Facts: [{"text": "No amendments proposed", "link": ""}]
+2025-10-30 16:49:19,072 INFO Links: []
+2025-10-30 16:49:19,072 INFO Metadata: {"amendment_count": 0}
+2025-10-30 16:49:19,072 INFO Processing: HRES.353 Question 7
+2025-10-30 16:49:19,072 INFO Building facts for question 7, bill 119/hres/353
+2025-10-30 16:49:19,654 INFO Built 1 facts, 0 links
+2025-10-30 16:49:19,657 INFO ✅ Produced: HRES.353 Q7
+2025-10-30 16:49:19,658 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
+2025-10-30 16:49:19,659 INFO Facts: [{"text": "No vote data found in actions", "link": ""}]
+2025-10-30 16:49:19,660 INFO Links: []
+2025-10-30 16:49:19,660 INFO Metadata: {"vote_action_count": 0}
+2025-10-30 16:49:19,660 INFO Processing: HR.1968 Question 1
+2025-10-30 16:49:19,660 INFO Building facts for question 1, bill 119/hr/1968
+2025-10-30 16:49:20,760 INFO Built 4 facts, 1 links
+2025-10-30 16:49:20,761 INFO ✅ Produced: HR.1968 Q1
+2025-10-30 16:49:20,761 INFO Question: What does this bill do? Where is it in the process?
+2025-10-30 16:49:20,761 INFO Facts: [{"text": "Bill Title: Full-Year Continuing Appropriations and Extensions Act, 2025", "link": ""}, {"text": "Summary: Full-Year Continuing Appropriations and Extensions Act, 2025This bill provides continuing FY2025 appropriations for federal agencies and extends various expiring programs and authorities.&nbsp;Specifically, the bill provides continuing FY2025 appropriations to federal agencies for the remainder of FY2025. It is known as a continuing resolution (CR) and prevents a government shutdown that would otherwise occur if the FY2025 appropriations bills have not been enacted when the existing CR expires o", "link": ""}, {"text": "Current Status: Became Public Law No: 119-4. (Date: 2025-03-15)", "link": ""}, {"text": "View full bill details", "link": "https://www.congress.gov/bill/119th-congress/house-bill/1968"}]
+2025-10-30 16:49:20,761 INFO Links: ["https://www.congress.gov/bill/119th-congress/house-bill/1968"]
+2025-10-30 16:49:20,762 INFO Metadata: {"bill_title": "Full-Year Continuing Appropriations and Extensions Act, 2025", "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/1968"}
+2025-10-30 16:49:20,762 INFO Processing: HR.1968 Question 2
+2025-10-30 16:49:20,762 INFO Building facts for question 2, bill 119/hr/1968
+2025-10-30 16:49:21,263 INFO Built 4 facts, 2 links
+2025-10-30 16:49:21,265 INFO ✅ Produced: HR.1968 Q2
+2025-10-30 16:49:21,265 INFO Question: What committees is this bill in?
+2025-10-30 16:49:21,265 INFO Facts: [{"text": "Committee: Appropriations Committee", "link": ""}, {"text": "View Appropriations Committee committee page", "link": "https://www.congress.gov/committee/house-appropriations-committee/hsap00"}, {"text": "Committee: Budget Committee", "link": ""}, {"text": "View Budget Committee committee page", "link": "https://www.congress.gov/committee/house-budget-committee/hsbu00"}]
+2025-10-30 16:49:21,265 INFO Links: ["https://www.congress.gov/committee/house-appropriations-committee/hsap00", "https://www.congress.gov/committee/house-budget-committee/hsbu00"]
+2025-10-30 16:49:21,265 INFO Metadata: {"bill_committee_ids": ["HSAP00", "HSBU00"]}
+2025-10-30 16:49:21,265 INFO Processing: HR.1968 Question 3
+2025-10-30 16:49:21,265 INFO Building facts for question 3, bill 119/hr/1968
+2025-10-30 16:49:21,603 INFO Built 2 facts, 1 links
+2025-10-30 16:49:21,606 INFO ✅ Produced: HR.1968 Q3
+2025-10-30 16:49:21,606 INFO Question: Who is the sponsor?
+2025-10-30 16:49:21,606 INFO Facts: [{"text": "Sponsor: Rep. Cole, Tom [R-OK-4] (R-OK-4)", "link": ""}, {"text": "View sponsor profile: Rep. Cole, Tom [R-OK-4]", "link": "https://www.congress.gov/member/rep-cole-tom/C001053"}]
+2025-10-30 16:49:21,606 INFO Links: ["https://www.congress.gov/member/rep-cole-tom/C001053"]
+2025-10-30 16:49:21,606 INFO Metadata: {"sponsor_bioguide_id": "C001053"}
+2025-10-30 16:49:21,606 INFO Processing: HR.1968 Question 4
+2025-10-30 16:49:21,606 INFO Building facts for question 4, bill 119/hr/1968
+2025-10-30 16:49:22,778 INFO Built 3 facts, 2 links
+2025-10-30 16:49:22,781 INFO ✅ Produced: HR.1968 Q4
+2025-10-30 16:49:22,781 INFO Question: Who cosponsored this bill? Are any of the cosponsors on the committee that the bill is in?
+2025-10-30 16:49:22,782 INFO Facts: [{"text": "Total cosponsors: 0", "link": ""}, {"text": "Top 5 cosponsors:", "link": ""}, {"text": "Committees: Appropriations Committee, Budget Committee", "link": ""}]
+2025-10-30 16:49:22,782 INFO Links: ["https://www.congress.gov/committee/house-appropriations-committee/hsap00", "https://www.congress.gov/committee/house-budget-committee/hsbu00"]
+2025-10-30 16:49:22,782 INFO Metadata: {"cosponsor_count": 0, "committee_codes": ["hsap00", "hsbu00"]}
+2025-10-30 16:49:22,783 INFO Processing: HR.1968 Question 5
+2025-10-30 16:49:22,783 INFO Building facts for question 5, bill 119/hr/1968
+2025-10-30 16:49:22,783 INFO Built 1 facts, 0 links
+2025-10-30 16:49:22,783 INFO ✅ Produced: HR.1968 Q5
+2025-10-30 16:49:22,783 INFO Question: Have any hearings happened on the bill? If so, what were the findings?
+2025-10-30 16:49:22,783 INFO Facts: [{"text": "Hearings data not available via Congress.gov API", "link": ""}]
+2025-10-30 16:49:22,783 INFO Links: []
+2025-10-30 16:49:22,785 INFO Metadata: {}
+2025-10-30 16:49:22,785 INFO Processing: HR.1968 Question 6
+2025-10-30 16:49:22,785 INFO Building facts for question 6, bill 119/hr/1968
+2025-10-30 16:49:23,461 INFO Built 6 facts, 0 links
+2025-10-30 16:49:23,462 INFO ✅ Produced: HR.1968 Q6
+2025-10-30 16:49:23,462 INFO Question: Have any amendments been proposed on the bill? If so, who proposed them and what do they do?
+2025-10-30 16:49:23,462 INFO Facts: [{"text": "Total amendments: 20", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}, {"text": "Amendment: Unknown amendment", "link": ""}]
+2025-10-30 16:49:23,462 INFO Links: []
+2025-10-30 16:49:23,462 INFO Metadata: {"amendment_count": 20}
+2025-10-30 16:49:23,462 INFO Processing: HR.1968 Question 7
+2025-10-30 16:49:23,463 INFO Building facts for question 7, bill 119/hr/1968
+2025-10-30 16:49:24,280 INFO Built 4 facts, 0 links
+2025-10-30 16:49:24,284 INFO ✅ Produced: HR.1968 Q7
+2025-10-30 16:49:24,285 INFO Question: Have any votes happened on the bill? If so, was it a party-line vote or a bipartisan one?
+2025-10-30 16:49:24,285 INFO Facts: [{"text": "Found 4 vote-related actions", "link": ""}, {"text": "Vote: Passed Senate without amendment by Yea-Nay Vote. 54 - 46. Record Vote Number: 133. (Date: 2025-03-14)", "link": ""}, {"text": "Vote: Passed/agreed to in Senate: Passed Senate without amendment by Yea-Nay Vote. 54 - 46. Record Vote Number: 133. (Date: 2025-03-14)", "link": ""}, {"text": "Vote: Cloture on the measure invoked in Senate by Yea-Nay Vote. 62 - 38. Record Vote Number: 128. (CR S1768) (Date: 2025-03-14)", "link": ""}]
+2025-10-30 16:49:24,285 INFO Links: []
+2025-10-30 16:49:24,286 INFO Metadata: {"vote_action_count": 4}
