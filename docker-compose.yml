@@ -1,0 +1,86 @@
+services:
+  kafka-broker:
+    image: redpandadata/redpanda:v24.2.7
+    command:
+      - redpanda
+      - start
+      - --overprovisioned
+      - --smp 1
+      - --memory 1G
+      - --set redpanda.auto_create_topics_enabled=true
+      - --kafka-addr PLAINTEXT://0.0.0.0:9092
+      - --advertise-kafka-addr PLAINTEXT://kafka-broker:9092
+    ports: ["9092:9092","9644:9644"]
+    healthcheck:
+      test: ["CMD-SHELL", "rpk cluster health || exit 1"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+
+  controller:
+    build: ./controller
+    depends_on:
+      kafka-broker:
+        condition: service_healthy
+    environment:
+      - KAFKA_BROKER=kafka-broker:9092
+    volumes:
+      - ./logs/controller:/logs
+
+  fetcher:
+    build: ./fetcher
+    depends_on:
+      kafka-broker:
+        condition: service_healthy
+    env_file:
+      - ./.env
+    environment:
+      - KAFKA_BROKER=kafka-broker:9092
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./logs/fetcher:/logs
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./ollama-data:/root/.ollama
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 60s
+
+  assembler:
+    build: ./assembler
+    depends_on:
+      kafka-broker:
+        condition: service_healthy
+      summarizer:
+        condition: service_started
+    environment:
+      - KAFKA_BROKER=kafka-broker:9092
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./logs/assembler:/logs
+      - ./output:/output
+
+  summarizer:
+    build: ./summarizer
+    depends_on:
+      kafka-broker:
+        condition: service_healthy
+      fetcher:
+        condition: service_started
+      ollama:
+        condition: service_healthy
+    environment:
+      - KAFKA_BROKER=kafka-broker:9092
+      - PYTHONUNBUFFERED=1
+      - OLLAMA_HOST=http://ollama:11434
+      - OLLAMA_MODEL=gemma2:2b-instruct-q4_K_M
+    volumes:
+      - ./logs/summarizer:/logs
