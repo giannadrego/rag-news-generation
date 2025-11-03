@@ -1,81 +1,81 @@
-2025-10-30 16:48:04,537 INFO Assembler subscribed to summaries.q
-2025-10-30 16:48:55,589 INFO Collected Q1 for HR.1: 1/7
-2025-10-30 16:48:59,873 INFO Collected Q2 for HR.1: 2/7
-2025-10-30 16:49:09,848 INFO Collected Q3 for HR.1: 3/7
-2025-10-30 16:49:15,745 INFO Collected Q4 for HR.1: 4/7
-2025-10-30 16:49:18,752 INFO Collected Q5 for HR.1: 5/7
-2025-10-30 16:49:22,317 INFO Collected Q6 for HR.1: 6/7
-2025-10-30 16:49:30,434 INFO Collected Q7 for HR.1: 7/7
-2025-10-30 16:49:30,436 INFO ✅ Wrote article for HR.1 to /output/articles.json
-2025-10-30 16:49:37,623 INFO Collected Q1 for HR.5371: 1/7
-2025-10-30 16:49:44,533 INFO Collected Q2 for HR.5371: 2/7
-2025-10-30 16:49:48,194 INFO Collected Q3 for HR.5371: 3/7
-2025-10-30 16:49:55,902 INFO Collected Q4 for HR.5371: 4/7
-2025-10-30 16:49:58,710 INFO Collected Q5 for HR.5371: 5/7
-2025-10-30 16:50:00,424 INFO Collected Q6 for HR.5371: 6/7
-2025-10-30 16:50:13,286 INFO Collected Q7 for HR.5371: 7/7
-2025-10-30 16:50:13,290 INFO ✅ Wrote article for HR.5371 to /output/articles.json
-2025-10-30 16:50:20,251 INFO Collected Q1 for HR.5401: 1/7
-2025-10-30 16:50:23,927 INFO Collected Q2 for HR.5401: 2/7
-2025-10-30 16:50:28,398 INFO Collected Q3 for HR.5401: 3/7
-2025-10-30 16:50:52,693 INFO Collected Q4 for HR.5401: 4/7
-2025-10-30 16:50:58,386 INFO Collected Q5 for HR.5401: 5/7
-2025-10-30 16:51:00,208 INFO Collected Q6 for HR.5401: 6/7
-2025-10-30 16:51:02,196 INFO Collected Q7 for HR.5401: 7/7
-2025-10-30 16:51:02,199 INFO ✅ Wrote article for HR.5401 to /output/articles.json
-2025-10-30 16:51:12,037 INFO Collected Q1 for S.2296: 1/7
-2025-10-30 16:51:17,165 INFO Collected Q2 for S.2296: 2/7
-2025-10-30 16:51:25,619 INFO Collected Q3 for S.2296: 3/7
-2025-10-30 16:51:29,171 INFO Collected Q4 for S.2296: 4/7
-2025-10-30 16:51:32,203 INFO Collected Q5 for S.2296: 5/7
-2025-10-30 16:51:35,077 INFO Collected Q6 for S.2296: 6/7
-2025-10-30 16:51:40,973 INFO Collected Q7 for S.2296: 7/7
-2025-10-30 16:51:40,975 INFO ✅ Wrote article for S.2296 to /output/articles.json
-2025-10-30 16:51:49,993 INFO Collected Q1 for S.24: 1/7
-2025-10-30 16:51:56,373 INFO Collected Q2 for S.24: 2/7
-2025-10-30 16:52:01,223 INFO Collected Q3 for S.24: 3/7
-2025-10-30 16:52:10,561 INFO Collected Q4 for S.24: 4/7
-2025-10-30 16:52:14,476 INFO Collected Q5 for S.24: 5/7
-2025-10-30 16:52:16,699 INFO Collected Q6 for S.24: 6/7
-2025-10-30 16:52:18,867 INFO Collected Q7 for S.24: 7/7
-2025-10-30 16:52:18,869 INFO ✅ Wrote article for S.24 to /output/articles.json
-2025-10-30 16:52:27,496 INFO Collected Q1 for S.2882: 1/7
-2025-10-30 16:52:29,811 INFO Collected Q2 for S.2882: 2/7
-2025-10-30 16:52:36,199 INFO Collected Q3 for S.2882: 3/7
-2025-10-30 16:52:39,487 INFO Collected Q4 for S.2882: 4/7
-2025-10-30 16:52:42,944 INFO Collected Q5 for S.2882: 5/7
-2025-10-30 16:52:45,064 INFO Collected Q6 for S.2882: 6/7
-2025-10-30 16:52:55,012 INFO Collected Q7 for S.2882: 7/7
-2025-10-30 16:52:55,014 INFO ✅ Wrote article for S.2882 to /output/articles.json
-2025-10-30 16:53:05,114 INFO Collected Q1 for S.499: 1/7
-2025-10-30 16:53:08,165 INFO Collected Q2 for S.499: 2/7
-2025-10-30 16:53:12,733 INFO Collected Q3 for S.499: 3/7
-2025-10-30 16:53:16,866 INFO Collected Q4 for S.499: 4/7
-2025-10-30 16:53:19,583 INFO Collected Q5 for S.499: 5/7
-2025-10-30 16:53:21,186 INFO Collected Q6 for S.499: 6/7
-2025-10-30 16:53:22,994 INFO Collected Q7 for S.499: 7/7
-2025-10-30 16:53:22,996 INFO ✅ Wrote article for S.499 to /output/articles.json
-2025-10-30 16:53:35,380 INFO Collected Q1 for SRES.412: 1/7
-2025-10-30 16:53:39,694 INFO Collected Q2 for SRES.412: 2/7
-2025-10-30 16:53:45,933 INFO Collected Q3 for SRES.412: 3/7
-2025-10-30 16:53:49,884 INFO Collected Q4 for SRES.412: 4/7
-2025-10-30 16:53:53,097 INFO Collected Q5 for SRES.412: 5/7
-2025-10-30 16:53:56,226 INFO Collected Q6 for SRES.412: 6/7
-2025-10-30 16:54:03,156 INFO Collected Q7 for SRES.412: 7/7
-2025-10-30 16:54:03,158 INFO ✅ Wrote article for SRES.412 to /output/articles.json
-2025-10-30 16:54:09,796 INFO Collected Q1 for HRES.353: 1/7
-2025-10-30 16:54:13,188 INFO Collected Q2 for HRES.353: 2/7
-2025-10-30 16:54:17,373 INFO Collected Q3 for HRES.353: 3/7
-2025-10-30 16:54:36,820 INFO Collected Q4 for HRES.353: 4/7
-2025-10-30 16:54:40,026 INFO Collected Q5 for HRES.353: 5/7
-2025-10-30 16:54:41,864 INFO Collected Q6 for HRES.353: 6/7
-2025-10-30 16:54:43,284 INFO Collected Q7 for HRES.353: 7/7
-2025-10-30 16:54:43,286 INFO ✅ Wrote article for HRES.353 to /output/articles.json
-2025-10-30 16:54:50,932 INFO Collected Q1 for HR.1968: 1/7
-2025-10-30 16:54:57,060 INFO Collected Q2 for HR.1968: 2/7
-2025-10-30 16:55:04,880 INFO Collected Q3 for HR.1968: 3/7
-2025-10-30 16:55:12,988 INFO Collected Q4 for HR.1968: 4/7
-2025-10-30 16:55:16,224 INFO Collected Q5 for HR.1968: 5/7
-2025-10-30 16:55:19,303 INFO Collected Q6 for HR.1968: 6/7
-2025-10-30 16:55:26,235 INFO Collected Q7 for HR.1968: 7/7
-2025-10-30 16:55:26,236 INFO ✅ Wrote article for HR.1968 to /output/articles.json
+2025-11-03 03:10:00,450 INFO Assembler subscribed to summaries.q
+2025-11-03 03:10:23,614 INFO Collected Q1 for HR.1: 1/7
+2025-11-03 03:10:29,775 INFO Collected Q2 for HR.1: 2/7
+2025-11-03 03:10:39,165 INFO Collected Q3 for HR.1: 3/7
+2025-11-03 03:10:44,232 INFO Collected Q4 for HR.1: 4/7
+2025-11-03 03:10:48,670 INFO Collected Q5 for HR.1: 5/7
+2025-11-03 03:11:00,940 INFO Collected Q6 for HR.1: 6/7
+2025-11-03 03:11:06,651 INFO Collected Q7 for HR.1: 7/7
+2025-11-03 03:11:06,655 INFO ✅ Wrote article for HR.1 to /output/articles.json
+2025-11-03 03:11:11,680 INFO Collected Q1 for HR.5371: 1/7
+2025-11-03 03:11:18,590 INFO Collected Q2 for HR.5371: 2/7
+2025-11-03 03:11:22,614 INFO Collected Q3 for HR.5371: 3/7
+2025-11-03 03:11:26,163 INFO Collected Q4 for HR.5371: 4/7
+2025-11-03 03:11:29,032 INFO Collected Q5 for HR.5371: 5/7
+2025-11-03 03:11:30,604 INFO Collected Q6 for HR.5371: 6/7
+2025-11-03 03:11:37,757 INFO Collected Q7 for HR.5371: 7/7
+2025-11-03 03:11:37,761 INFO ✅ Wrote article for HR.5371 to /output/articles.json
+2025-11-03 03:11:47,315 INFO Collected Q1 for HR.5401: 1/7
+2025-11-03 03:11:51,649 INFO Collected Q2 for HR.5401: 2/7
+2025-11-03 03:11:57,395 INFO Collected Q3 for HR.5401: 3/7
+2025-11-03 03:12:20,356 INFO Collected Q4 for HR.5401: 4/7
+2025-11-03 03:12:23,505 INFO Collected Q5 for HR.5401: 5/7
+2025-11-03 03:12:25,088 INFO Collected Q6 for HR.5401: 6/7
+2025-11-03 03:12:27,043 INFO Collected Q7 for HR.5401: 7/7
+2025-11-03 03:12:27,045 INFO ✅ Wrote article for HR.5401 to /output/articles.json
+2025-11-03 03:12:39,768 INFO Collected Q1 for S.2296: 1/7
+2025-11-03 03:12:44,024 INFO Collected Q2 for S.2296: 2/7
+2025-11-03 03:12:49,536 INFO Collected Q3 for S.2296: 3/7
+2025-11-03 03:12:52,703 INFO Collected Q4 for S.2296: 4/7
+2025-11-03 03:12:55,326 INFO Collected Q5 for S.2296: 5/7
+2025-11-03 03:13:07,152 INFO Collected Q6 for S.2296: 6/7
+2025-11-03 03:13:11,661 INFO Collected Q7 for S.2296: 7/7
+2025-11-03 03:13:11,666 INFO ✅ Wrote article for S.2296 to /output/articles.json
+2025-11-03 03:13:21,265 INFO Collected Q1 for S.24: 1/7
+2025-11-03 03:13:26,728 INFO Collected Q2 for S.24: 2/7
+2025-11-03 03:13:31,985 INFO Collected Q3 for S.24: 3/7
+2025-11-03 03:13:38,175 INFO Collected Q4 for S.24: 4/7
+2025-11-03 03:13:41,515 INFO Collected Q5 for S.24: 5/7
+2025-11-03 03:13:43,532 INFO Collected Q6 for S.24: 6/7
+2025-11-03 03:13:45,133 INFO Collected Q7 for S.24: 7/7
+2025-11-03 03:13:45,136 INFO ✅ Wrote article for S.24 to /output/articles.json
+2025-11-03 03:13:54,187 INFO Collected Q1 for S.2882: 1/7
+2025-11-03 03:13:56,772 INFO Collected Q2 for S.2882: 2/7
+2025-11-03 03:14:02,026 INFO Collected Q3 for S.2882: 3/7
+2025-11-03 03:14:05,411 INFO Collected Q4 for S.2882: 4/7
+2025-11-03 03:14:08,667 INFO Collected Q5 for S.2882: 5/7
+2025-11-03 03:14:10,154 INFO Collected Q6 for S.2882: 6/7
+2025-11-03 03:14:17,992 INFO Collected Q7 for S.2882: 7/7
+2025-11-03 03:14:17,997 INFO ✅ Wrote article for S.2882 to /output/articles.json
+2025-11-03 03:14:25,538 INFO Collected Q1 for S.499: 1/7
+2025-11-03 03:14:29,452 INFO Collected Q2 for S.499: 2/7
+2025-11-03 03:14:35,029 INFO Collected Q3 for S.499: 3/7
+2025-11-03 03:14:37,961 INFO Collected Q4 for S.499: 4/7
+2025-11-03 03:14:40,938 INFO Collected Q5 for S.499: 5/7
+2025-11-03 03:14:42,179 INFO Collected Q6 for S.499: 6/7
+2025-11-03 03:14:43,694 INFO Collected Q7 for S.499: 7/7
+2025-11-03 03:14:43,696 INFO ✅ Wrote article for S.499 to /output/articles.json
+2025-11-03 03:14:51,440 INFO Collected Q1 for SRES.412: 1/7
+2025-11-03 03:14:54,053 INFO Collected Q2 for SRES.412: 2/7
+2025-11-03 03:14:59,649 INFO Collected Q3 for SRES.412: 3/7
+2025-11-03 03:15:02,653 INFO Collected Q4 for SRES.412: 4/7
+2025-11-03 03:15:05,239 INFO Collected Q5 for SRES.412: 5/7
+2025-11-03 03:15:10,609 INFO Collected Q6 for SRES.412: 6/7
+2025-11-03 03:15:15,053 INFO Collected Q7 for SRES.412: 7/7
+2025-11-03 03:15:15,056 INFO ✅ Wrote article for SRES.412 to /output/articles.json
+2025-11-03 03:15:24,114 INFO Collected Q1 for HRES.353: 1/7
+2025-11-03 03:15:28,171 INFO Collected Q2 for HRES.353: 2/7
+2025-11-03 03:15:35,559 INFO Collected Q3 for HRES.353: 3/7
+2025-11-03 03:15:47,449 INFO Collected Q4 for HRES.353: 4/7
+2025-11-03 03:15:49,892 INFO Collected Q5 for HRES.353: 5/7
+2025-11-03 03:15:51,275 INFO Collected Q6 for HRES.353: 6/7
+2025-11-03 03:15:52,548 INFO Collected Q7 for HRES.353: 7/7
+2025-11-03 03:15:52,551 INFO ✅ Wrote article for HRES.353 to /output/articles.json
+2025-11-03 03:16:01,672 INFO Collected Q1 for HR.1968: 1/7
+2025-11-03 03:16:08,615 INFO Collected Q2 for HR.1968: 2/7
+2025-11-03 03:16:13,614 INFO Collected Q3 for HR.1968: 3/7
+2025-11-03 03:16:19,599 INFO Collected Q4 for HR.1968: 4/7
+2025-11-03 03:16:22,475 INFO Collected Q5 for HR.1968: 5/7
+2025-11-03 03:16:33,217 INFO Collected Q6 for HR.1968: 6/7
+2025-11-03 03:16:39,364 INFO Collected Q7 for HR.1968: 7/7
+2025-11-03 03:16:39,366 INFO ✅ Wrote article for HR.1968 to /output/articles.json

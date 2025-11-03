@@ -38,15 +38,15 @@ def build_prompt(item: dict) -> str:
     You are a helpful writing assistant that converts legislative or policy markdown summaries into a clear, news-style article.
 
     Instructions:
-    1. Read the markdown input carefully.
+    1. Read the input carefully. Make sure in the output the same fact is not repeated.
     2. Write a full natural-language news article based entirely on the information provided.
     3. Ensure all links are inline Markdown links with descriptive anchor text; convert any bare URLs into inline links. Use entity names as anchors, e.g., [Rep. Jodey C. Arrington](URL), [House Budget Committee](URL).
     4. Use Markdown for the final output:
-       - Begin with a **bold headline**.
-       - Use clear, factual paragraphs only (no bullet points, no lists).
-       - Keep a neutral, professional tone similar to a news wire or government press report.
-    5. Do NOT invent or assume information that isn’t in the input.
-    6. If information is unclear or missing, omit it without speculation.
+       - MUST begin with a **bold headline** (use **text**, NOT # heading)
+       - Use clear, factual paragraphs only (no bullet points, no lists, no # headings)
+       - Keep a neutral, professional tone similar to a news wire or government press report
+    5. Do NOT invent or assume information that isn't in the input.
+    6. Remove all placeholder text like [Insert link], [Link to...], [date], etc.
 
     Input Markdown:
     ---
@@ -54,7 +54,9 @@ def build_prompt(item: dict) -> str:
     ---
 
     Output Format:
-    - Return your answer in Markdown only, following the above rules.
+    - Return ONLY the markdown article, starting with **bold headline**
+    - Ensure all URLs are converted to proper markdown links with descriptive anchor text
+    - No placeholders, no bare URLs, no # headings
     """).strip()
 
 def main():

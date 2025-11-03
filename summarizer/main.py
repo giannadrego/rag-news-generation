@@ -49,9 +49,10 @@ def build_prompt(question: str, facts: list, links: list) -> str:
     links_block = "\n".join(links_lines) if links_lines else "- (no congress.gov links)"
 
     return textwrap.dedent(f"""\
+        
     You are a careful summarizer. Answer the question ONLY using the provided facts.
     - Be concise (2-5 sentences).
-    - If a link is relevant, include it inline as a markdown link.
+    - If a link is relevant, include it.
     - Only use congress.gov links; do not invent links.
     - Do not add opinions.
 

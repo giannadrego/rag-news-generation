@@ -1,4 +1,5 @@
 import os, sys, json, time, re
+from datetime import datetime
 import requests
 from confluent_kafka import Consumer, Producer
 import logging
@@ -63,6 +64,14 @@ def bill_actions(congress, bill_type, number):
 
 def bill_summaries(congress, bill_type, number):
     return _get(f"{BASE}/bill/{congress}/{bill_type}/{number}/summaries?api_key={API_KEY}")
+
+def amendment_detail(url: str):
+    """Fetch detailed information for a specific amendment using its URL"""
+    # Add API key if not present
+    if "api_key=" not in url:
+        separator = "&" if "?" in url else "?"
+        url = f"{url}{separator}api_key={API_KEY}"
+    return _get(url)
 
 # Helper to extract nested lists
 def _list_at(node, *keys):
@@ -238,79 +247,175 @@ def build_facts_for_question(qid: int, congress: int, bill_type: str, number: in
     elif qid == 4:  # Who cosponsored this bill? Are any cosponsors on committees?
         root = bill_root(congress, bill_type, number)
         cos = bill_cosponsors(congress, bill_type, number)
-        com = bill_committees(congress, bill_type, number)
-        
+
         # Limit to top 5 cosponsors for small LLM
         cos_list = _list_at(cos, "cosponsors", "cosponsors") or _list_at(cos, "cosponsors")
         limited_cosponsors = cos_list[:5]
         
-        facts.append({
-            "text": f"Total cosponsors: {len(cos_list)}",
-            "link": ""
-        })
-        
-        facts.append({
-            "text": "Top 5 cosponsors:",
-            "link": ""
-        })
-        
-        for cosponsor in limited_cosponsors:
-            name = cosponsor.get("fullName", "Unknown")
-            party = cosponsor.get("party", "")
-            
+        # Only send cosponsor data if there are actual cosponsors
+        if cos_list:
             facts.append({
-                "text": f"- {name} ({party})",
+                "text": f"Total cosponsors: {len(cos_list)}",
                 "link": ""
             })
             
-            # Build www.congress.gov member URL
-            url = build_member_url(cosponsor)
-            if url:
-                links.append(url)
+            facts.append({
+                "text": "Top cosponsors:",
+                "link": ""
+            })
+            
+            for cosponsor in limited_cosponsors:
+                name = cosponsor.get("fullName", "Unknown")
+                party = cosponsor.get("party", "")
+                
                 facts.append({
-                    "text": f"View cosponsor profile: {name}",
-                    "link": url
+                    "text": f"- {name} ({party})",
+                    "link": ""
                 })
-        
-        # Add committee information
-        committees = com.get("committees", [])
-        if committees:
-            facts.append({
-                "text": f"Committees: {', '.join([c.get('name', '') for c in committees[:5]])}",
-                "link": ""
-            })
-            
-            for committee in committees[:5]:
-                url = build_committee_url(committee)
+                
+                # Build www.congress.gov member URL
+                url = build_member_url(cosponsor)
                 if url:
                     links.append(url)
-        
+                    facts.append({
+                        "text": f"View cosponsor profile: {name}",
+                        "link": url
+                    })
+        else:
+            facts.append({
+                "text": "There are no cosponsors",
+                "link": ""
+            })
+        # Address second part of question about committee overlap
+        facts.append({
+            "text": "No information available on whether any cosponsors are on committees",
+            "link": ""
+        })
         metadata = {
             "cosponsor_count": len(cos_list),
-            "committee_codes": [c.get("systemCode", "") for c in committees if c.get("systemCode")]
         }
         
     elif qid == 5:  # Have any hearings happened?
-        facts.append({
-            "text": "Hearings data not available via Congress.gov API",
-            "link": ""
-        })
-        metadata = {}
+        data = bill_committees(congress, bill_type, number)
+        committees = data.get("committees", [])
         
-    elif qid == 6:  # Have any amendments been proposed?
+        hearings_found = []
+        
+        # Check each committee for hearing activities
+        for committee in committees:
+            activities = committee.get("activities", {})
+            if isinstance(activities, dict):
+                activity_list = activities.get("item", [])
+                if not isinstance(activity_list, list):
+                    activity_list = [activity_list] if activity_list else []
+            elif isinstance(activities, list):
+                activity_list = activities
+            else:
+                activity_list = []
+            
+            # Look for hearings
+            for activity in activity_list:
+                activity_name = activity.get("name", "")
+                if activity_name and ("hearing" in activity_name.lower() or "hearings" in activity_name.lower()):
+                    hearing_date = activity.get("date", "")
+                    if hearing_date:
+                        # Format date
+                        try:
+                            dt = datetime.fromisoformat(hearing_date.replace('Z', '+00:00'))
+                            formatted_date = dt.strftime("%B %d, %Y")
+                            hearings_found.append(formatted_date)
+                        except:
+                            hearings_found.append(hearing_date)
+        
+        if hearings_found:
+            # Use most recent hearing date
+            facts.append({
+                "text": f"Hearing on {hearings_found[0]}",
+                "link": ""
+            })
+        else:
+            facts.append({
+                "text": "Hearings data not available",
+                "link": ""
+            })
+        
+        metadata = {"hearing_count": len(hearings_found)}
+        
+    elif qid == 6:  # Have any amendments been proposed? 
+        # Get amendment count from bill root
+        root = bill_root(congress, bill_type, number)
+        bill = root.get("bill", {})
+        amendments_info = bill.get("amendments", {})
+        amendment_count = amendments_info.get("count", 0)
+        
+        # Get list of amendments
         amd = bill_amendments(congress, bill_type, number)
         amendments = amd.get("amendments", [])
         
-        if amendments:
+        if amendments and amendment_count > 0:
             facts.append({
-                "text": f"Total amendments: {len(amendments)}",
+                "text": f"Total amendments: {amendment_count}",
                 "link": ""
             })
             
-            for amendment in amendments[:5]:  # Limit for small LLM
-                title = amendment.get("title", "Unknown amendment")
+            # Fetch details for first 5 amendments to get sponsor and purpose
+            for amendment in amendments[:5]:  # Limit for small LLM - only process top 5
+                amendment_url = amendment.get("url", "")
+                amendment_number = amendment.get("number", "")
+                amendment_type = amendment.get("type", "")
+                
+                # Try to get purpose/description from the list response first
+                purpose = amendment.get("purpose", amendment.get("description", ""))
+                
+                if amendment_url:
+                    # Fetch detailed amendment information using the URL
+                    amendment_detail_data = amendment_detail(amendment_url)
+                    amendment_obj = amendment_detail_data.get("amendment", {})
+                    
+                    # Extract purpose if not already found
+                    if not purpose:
+                        purpose = amendment_obj.get("purpose", "")
+                    
+                    # Extract sponsor information
+                    sponsors_list = amendment_obj.get("sponsors", [])
+                    sponsor_name = "Unknown sponsor"
+                    if sponsors_list:
+                        sponsor = sponsors_list[0]
+                        sponsor_name = sponsor.get("fullName", sponsor.get("firstName", "") + " " + sponsor.get("lastName", "")).strip()
+                else:
+                    # Fallback: construct URL if url field is missing
+                    if amendment_number and amendment_type:
+                        # Construct the URL manually with lowercase type
+                        fallback_url = f"{BASE}/amendment/{congress}/{amendment_type.lower()}/{amendment_number}?api_key={API_KEY}"
+                        amendment_detail_data = amendment_detail(fallback_url)
+                        amendment_obj = amendment_detail_data.get("amendment", {})
+                        if not purpose:
+                            purpose = amendment_obj.get("purpose", "")
+                        sponsors_list = amendment_obj.get("sponsors", [])
+                        sponsor_name = "Unknown sponsor"
+                        if sponsors_list:
+                            sponsor = sponsors_list[0]
+                            sponsor_name = sponsor.get("fullName", sponsor.get("firstName", "") + " " + sponsor.get("lastName", "")).strip()
+                    else:
+                        sponsor_name = "Unknown sponsor"
+                
+                # Build fact text with who proposed and what it does
+                if amendment_type and amendment_number:
+                    amendment_text = f"Amendment {amendment_type} {amendment_number}"
+                else:
+                    amendment_text = "Amendment"
+                
+                if sponsor_name and sponsor_name != "Unknown sponsor":
+                    amendment_text += f" proposed by {sponsor_name}"
+                
+                if purpose:
+                    # Include the FULL purpose without truncation for top 5 amendments
+                    amendment_text += f": {purpose}"
+                else:
+                    amendment_text += ": Purpose not available"
+                
                 facts.append({
-                    "text": f"Amendment: {title[:200]}",
+                    "text": amendment_text,
                     "link": ""
                 })
         else:
@@ -319,39 +424,150 @@ def build_facts_for_question(qid: int, congress: int, bill_type: str, number: in
                 "link": ""
             })
         
-        metadata = {"amendment_count": len(amendments)}
+        metadata = {"amendment_count": amendment_count or len(amendments)}
         
     elif qid == 7:  # Have any votes happened?
         acts = bill_actions(congress, bill_type, number)
         actions = acts.get("actions", [])
         
-        # Look for vote-related actions
-        vote_actions = []
-        for action in actions:
-            action_text = action.get("text", "").lower()
-            if any(kw in action_text for kw in ["vote", "passed", "failed", "yea", "nay", "roll call"]):
-                vote_actions.append({
-                    "text": action.get("text", ""),
-                    "date": action.get("actionDate", "")
-                })
+        # Collect all votes with dates to find the most recent
+        all_votes = []
         
-        if vote_actions:
-            facts.append({
-                "text": f"Found {len(vote_actions)} vote-related actions",
-                "link": ""
-            })
-            for vote in vote_actions[:3]:  # Limit for small LLM
+        for action in actions:
+            recorded_votes = action.get("recordedVotes", {})
+            if isinstance(recorded_votes, dict):
+                vote_list = recorded_votes.get("recordedVote", [])
+                if not isinstance(vote_list, list):
+                    vote_list = [vote_list] if vote_list else []
+            elif isinstance(recorded_votes, list):
+                vote_list = recorded_votes
+            else:
+                vote_list = []
+            
+            for vote in vote_list:
+                chamber = vote.get("chamber", "")
+                session_num = vote.get("sessionNumber")
+                roll_num = vote.get("rollNumber")
+                vote_date = vote.get("date", action.get("actionDate", ""))
+                
+                if chamber == "House" and session_num is not None and roll_num is not None:
+                    all_votes.append({
+                        "chamber": "House",
+                        "sessionNumber": session_num,
+                        "rollNumber": roll_num,
+                        "date": vote_date,
+                        "action_text": action.get("text", "")
+                    })
+                elif chamber == "Senate":
+                    all_votes.append({
+                        "chamber": "Senate",
+                        "date": vote_date,
+                        "action_text": action.get("text", "")
+                    })
+        
+        if all_votes:
+            # Sort by date (most recent first) - dates are ISO format, so string sort works
+            all_votes.sort(key=lambda x: x.get("date", ""), reverse=True)
+            
+            # Get the most recent vote
+            most_recent_vote = all_votes[0]
+            
+            if most_recent_vote["chamber"] == "House":
+                # House vote - get detailed breakdown
+                vote_info = most_recent_vote
+                
                 facts.append({
-                    "text": f"Vote: {vote['text']} (Date: {vote['date']})",
+                    "text": f"Most recent vote: House Roll Call {vote_info['rollNumber']}",
                     "link": ""
                 })
+                
+                vote_data = house_vote(congress, vote_info["sessionNumber"], vote_info["rollNumber"])
+                
+                house_votes = vote_data.get("houseRollCallVote", [])
+                # Handle case where API returns dict instead of list
+                if isinstance(house_votes, dict):
+                    house_votes = [house_votes]
+                elif not isinstance(house_votes, list):
+                    house_votes = []
+                
+                if house_votes:
+                    vote_detail = house_votes[0]
+                    result = vote_detail.get("result", "")
+                    vote_question = vote_detail.get("voteQuestion", "")
+                    
+                    # Analyze party totals
+                    party_totals = vote_detail.get("votePartyTotal", [])
+                    rep_data = None
+                    dem_data = None
+                    
+                    for party_data in party_totals:
+                        party_type = party_data.get("voteParty", "")
+                        if party_type == "R":
+                            rep_data = party_data
+                        elif party_type == "D":
+                            dem_data = party_data
+                    
+                    # Determine party-line vs bipartisan
+                    vote_type = "Unknown"
+                    if rep_data and dem_data:
+                        rep_yea = rep_data.get("yeaTotal", 0)
+                        rep_nay = rep_data.get("nayTotal", 0)
+                        rep_total = rep_yea + rep_nay
+                        dem_yea = dem_data.get("yeaTotal", 0)
+                        dem_nay = dem_data.get("nayTotal", 0)
+                        dem_total = dem_yea + dem_nay
+                        
+                        if rep_total > 0 and dem_total > 0:
+                            rep_yea_pct = (rep_yea / rep_total) * 100 if rep_total > 0 else 0
+                            dem_yea_pct = (dem_yea / dem_total) * 100 if dem_total > 0 else 0
+                            
+                            # If parties vote in opposite directions (>70% threshold)
+                            if (rep_yea_pct > 70 and dem_yea_pct < 30) or (rep_yea_pct < 30 and dem_yea_pct > 70):
+                                vote_type = "party-line vote"
+                            else:
+                                vote_type = "bipartisan vote"
+                    
+                    facts.append({
+                        "text": f"Vote Result: {result} - {vote_question}",
+                        "link": ""
+                    })
+                    
+                    if rep_data and dem_data:
+                        rep_votes = f"Republicans: {rep_data.get('yeaTotal', 0)} yea, {rep_data.get('nayTotal', 0)} nay"
+                        dem_votes = f"Democrats: {dem_data.get('yeaTotal', 0)} yea, {dem_data.get('nayTotal', 0)} nay"
+                        facts.append({
+                            "text": f"{rep_votes}; {dem_votes}",
+                            "link": ""
+                        })
+                        
+                        facts.append({
+                            "text": f"This was a {vote_type}",
+                            "link": ""
+                        })
+                else:
+                    facts.append({
+                        "text": f"Could not retrieve vote details for Roll Call {vote_info['rollNumber']}",
+                        "link": ""
+                    })
+                
+                metadata = {"vote_count": len(all_votes)}
+            else:
+                # Senate vote - just show text
+                facts.append({
+                    "text": f"Senate vote: {most_recent_vote['action_text']}",
+                    "link": ""
+                })
+                facts.append({
+                    "text": "No detailed party breakdown available for Senate votes",
+                    "link": ""
+                })
+                metadata = {"vote_count": len(all_votes), "senate_vote_only": True}
         else:
             facts.append({
-                "text": "No vote data found in actions",
+                "text": "No votes found",
                 "link": ""
             })
-        
-        metadata = {"vote_action_count": len(vote_actions)}
+            metadata = {"vote_count": 0}
         
     else:
         logging.warning(f"Unknown question ID: {qid}")
@@ -365,6 +581,9 @@ def build_facts_for_question(qid: int, congress: int, bill_type: str, number: in
     
     logging.info(f"Built {len(facts)} facts, {len(links)} links")
     return facts, links, metadata
+
+def house_vote(congress, session, vote_number):
+    return _get(f"{BASE}/house-vote/{congress}/{session}/{vote_number}?api_key={API_KEY}")
 
 # Main loop
 logging.info("Fetcher subscribed to tasks.questions")

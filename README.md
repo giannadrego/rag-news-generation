@@ -1,6 +1,6 @@
 ## RAG News Generation
 
-####Author
+#### Author
 Gianna Drego
 
 #### Project Description
@@ -33,18 +33,12 @@ Kafka topics:
 **Approach:**  
 To maximize both speed and accuracy, the pipeline is structured as four asynchronous, decoupled microservices communicating via Kafka topics. This design allows each stage—question seeding, fact retrieval, summarization, and article assembly—to run concurrently and independently, minimizing bottlenecks and improving throughput. For speed, data flows as soon as it is available without waiting for entire batches, leveraging Kafka's high-throughput message brokering. Batch processing is avoided in favor of streaming, reducing latency. Accuracy is prioritized by sourcing all facts directly from official Congress.gov endpoints and building contextually rich prompts for the local LLM (Ollama), which ensures concise, factual outputs. Failures or bottlenecks in one stage do not block the rest of the pipeline, further improving robustness and reliability.
 
-### Benchmark logs (7 minutes 23 seconds)
+### Benchmark logs (6 minutes 40 seconds)
 #### controller.log(controller.log)
-2025-10-30 16:48:03,341 INFO Queued 70 question tasks
-#### (fetcher.log)
-2025-10-30 16:48:03,421 INFO Fetcher subscribed to tasks.questions
-2025-10-30 16:48:42,872 INFO Processing: HR.1 Question 1
-#### (summarizer.log)
-2025-10-30 16:48:03,953 INFO Summarizer subscribed to facts.raw
-2025-10-30 16:48:44,354 INFO Summarizing: HR.1 Q1
+2025-11-03 03:09:59,512 INFO Queued 70 question tasks
 #### (assembler.log)
-2025-10-30 16:55:26,235 INFO Collected Q7 for HR.1968: 7/7
-2025-10-30 16:55:26,236 INFO ✅ Wrote article for HR.1968 to /output/articles.json
+2025-11-03 03:16:39,364 INFO Collected Q7 for HR.1968: 7/7
+2025-11-03 03:16:39,366 INFO ✅ Wrote article for HR.1968 to /output/articles.json
 
 
 ### Setup and Run
@@ -107,19 +101,32 @@ docker compose restart controller
 [
   {
     "bill_id": "HR.1",
-    "bill_title": "Lower Energy Costs Act",
-    "sponsor_bioguide_id": "S001176",
+    "bill_title": "One Big Beautiful Bill Act",
+    "sponsor_bioguide_id": "A000375",
     "bill_committee_ids": [
-      "HSII00",
-      "HSIF00",
-      "HSPW00",
-      "HSBU00",
-      "HSAG00"
+      "HSBU00"
     ],
-    "article_content": "## HR.1\n\nThe Lower Energy Costs Act (H.R. 1) provides for the exploration, development, importation, and exportation of energy resources such as oil, gas, and minerals. The bill is currently in the process of being corrected by the Clerk before it can be formally considered by the House. [https://www.congress.gov/bill/118th-congress/house-bill/1](https://www.congress.gov/bill/118th-congress/house-bill/1)\n\n\n**Committees**\n\nThis bill is in the Natural Resources Committee, Energy and Commerce Committee, Transportation and Infrastructure Committee, Budget Committee, and Agriculture Committee. [https://www.congress.gov/committee/house-natural-resources-committee/hsii00](https://www.congress.gov/committee/house-natural-resources-committee/hsii00) [https://www.congress.gov/committee/house-energy-and-commerce-committee/hsif00](https://www.congress.gov/committee/house-energy-and-commerce-committee/hsif00) [https://www.congress.gov/committee/house-transportation-and-infrastructure-committee/hspw00](https://www.congress.gov/committee/house-transportation-and-infrastructure-committee/hspw00) [https://www.congress.gov/committee/house-budget-committee/hsbu00](https://www.congress.gov/committee/house-budget-committee/hsbu00) [https://www.congress.gov/committee/house-agriculture-committee/hsag00](https://www.congress.gov/committee/house-agriculture-committee/hsag00)\n\n\n**Sponsor**\n\nRep. Scalise, Steve is the sponsor of the bill. [https://www.congress.gov/member/rep-scalise-steve/S001176](https://www.congress.gov/member/rep-scalise-steve/S001176)\n\n\n**Cosponsors & overlap**\n\nRep. McMorris Rodgers, Cathy [R-WA-5], Rep. Westerman, Bruce [R-AR-4], and Rep. Graves, Sam [R-MO-6] are the top 5 cosponsors of the bill.  Rep. McMorris Rodgers, Cathy [R-WA-5], is a member of the House Natural Resources Committee. [https://www.congress.gov/member/rep-mcmorris-rodgers-cathy/M001159](https://www.congress.gov/member/rep-mcmorris-rodgers-cathy/M001159)  [https://www.congress.gov/committee/house-natural-resources-committee/hsii00](https://www.congress.gov/committee/house-natural-resources-committee/hsii00)\n\n\n**Hearings**\n\nNo hearings have been held on the bill as of yet.  [Find more information about the bill](https://www.congress.gov/).\n\n\n**Amendments**\n\nThe provided text states there were 20 total amendments proposed on the bill, but it does not provide information about who proposed them or what they do. [Link to relevant page](https://www.congress.gov/)\n\n\n**Votes**\n\nThe bill was passed by the Yeas and Nays vote of 225 to 204 on March 30, 2023. This was a bipartisan vote.  [Vote: On passage Passed by the Yeas and Nays: 225 - 204 (Roll no. 182).](https://www.congress.gov/bill/118th-congress/house-bill/1737/votes)"
+    "article_content": "## HR.1\n\nThe One Big Beautiful Bill Act, passed as Public Law No. 119-21 on July 4, 2025, reduces taxes and alters spending for various federal programs. It also increases the statutory debt limit. [https://www.congress.gov/bill/119th-congress/house-bill/1](https://www.congress.gov/bill/119th-congress/house-bill/1)\n\n\n**Committees**\n\nThis bill is in the House Budget Committee. [https://www.congress.gov/committee/house-budget-committee/hsbu00](https://www.congress.gov/committee/house-budget-committee/hsbu00)\n\n\n**Sponsor**\n\nRep. Arrington, Jodey C. is the sponsor of the bill.  [https://www.congress.gov/member/rep-arrington-jodey-c/A000375](https://www.congress.gov/member/rep-arrington-jodey-c/A000375)\n\n\n**Cosponsors & overlap**\n\nThere are currently no cosponsors listed for this bill.  The provided text does not contain information about whether any of the cosponsors are members of the committee that the bill is in.\n\n\n**Hearings**\n\nNo hearings have been held on the bill.  [https://www.congress.gov/](https://www.congress.gov/)\n\n\n**Amendments**\n\nThere have been 493 amendments proposed to the bill.  Senators Padilla, Alex [D-CA] proposed amendments SAMDT 2851 and SAMDT 2850. Senator Klobuchar, Amy [D-MN] proposed amendment SAMDT 2849 to strike a provision relating to delayed implementation of the supplemental nutrition assistance program matching funds requirements. Senator Graham, Lindsey [R-SC] proposed amendment SAMDT 2848 to improve the bill.  Senator Warner, Mark R. [D-VA] proposed amendment SAMDT 2847 to use revenues from lease payments from Metropolitan Washington Airports for aviation safety improvements and other purposes.\n\n\n**Votes**\n\nThe bill passed the House with a party-line vote.  [House Roll Call 190](https://www.congress.gov/bill/118th-congress/house-bill/3) shows that the vote was 218 to 2, with Republicans voting in favor and Democrats voting against."
   }
 ]
 ```
+
+
+`output/final_articles.json`
+```json
+[
+  {
+    "bill_id": "HR.1",
+    "bill_title": "One Big Beautiful Bill Act",
+    "sponsor_bioguide_id": "A000375",
+    "bill_committee_ids": [
+      "HSBU00"
+    ],
+    "article_content": "**House Passes 'One Big Beautiful Bill Act' Reducing Taxes and Altering Spending**\n\nThe House Budget Committee has approved the \"One Big Beautiful Bill Act\", Public Law No. 119-21, which reduces taxes and alters spending for various federal programs. The bill also increases the statutory debt limit. [https://www.congress.gov/bill/119th-congress/house-bill/1](https://www.congress.gov/bill/119th-congress/house-bill/1)\n\nRep. Jodey C. Arrington (R-VA), the sponsor of the bill, [https://www.congress.gov/member/rep-arrington-jodey-c/A000375](https://www.congress.gov/member/rep-arrington-jodey-c/A000375) introduced the legislation.  The bill passed the House with a party-line vote of 218 to 2, with Republicans voting in favor and Democrats voting against. [House Roll Call 190](https://www.congress.gov/bill/118th-congress/house-bill/3)\n\nThe bill has been referred to the House Budget Committee.  [https://www.congress.gov/committee/house-budget-committee/hsbu00](https://www.congress.gov/committee/house-budget-committee/hsbu00) The \"One Big Beautiful Bill Act\" was passed on July 4, 2025 and has been subject to 493 amendments.  Senators Padilla, Alex [D-CA] proposed amendments SAMDT 2851 and SAMDT 2850. Senator Klobuchar, Amy [D-MN] proposed amendment SAMDT 2849 to strike a provision relating to delayed implementation of the supplemental nutrition assistance program matching funds requirements. Senator Graham, Lindsey [R-SC] proposed amendment SAMDT 2848 to improve the bill.  Senator Warner, Mark R. [D-VA] proposed amendment SAMDT 2847 to use revenues from lease payments from Metropolitan Washington Airports for aviation safety improvements and other purposes."
+  }
+]
+```
+
 
 ### Troubleshooting
 - Ensure `.env` contains a valid `CONGRESS_API_KEY`.
